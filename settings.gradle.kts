@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "vi-translator-tv"
+rootProject.name = "vi-translator-android-tv"
 include(":app")

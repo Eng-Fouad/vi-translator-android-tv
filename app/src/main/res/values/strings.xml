@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">VI Translator TV</string>
+    <string name="app_name">VI Translator</string>
     <string name="enter_code">Enter this code in VI Translator on your PC</string>
     <string name="where_on_pc">On the PC: Source tab, Show on a TV, Connect a TV</string>
     <string name="this_tv">This TV: %1$s</string>

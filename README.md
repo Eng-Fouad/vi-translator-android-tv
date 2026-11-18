@@ -1,4 +1,14 @@
-# VI Translator TV
+<p align="center">
+  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="VI Translator logo" width="160" />
+</p>
+
+<h1 align="center">VI Translator - Android TV</h1>
+
+<p align="center">VI Translator's live subtitles on your Android TV, over the game from your console.</p>
+
+---
+
+## What it does
 
 Shows VI Translator's translations on your TV, over the game from your console's HDMI input. It
 needs a TV that runs Google TV or Android TV itself (for example TCL, Sony, Hisense or Philips

@@ -65,12 +65,6 @@ public class MainActivity extends Activity {
         TextView name = Look.text(this, "VI TRANSLATOR", 44, 800, Look.TEXT);
         Look.sunset(name);
         brand.addView(name);
-        TextView tv = Look.text(this, "TV", 44, 800, Look.NEON);
-        Look.neon(tv, Look.NEON);
-        // (the two glows' room overlaps: one word gap between them)
-        LinearLayout.LayoutParams tvLp = wrap();
-        tvLp.setMarginStart(-dp(26));
-        brand.addView(tv, tvLp);
         col.addView(brand, wrap());
         LinearLayout.LayoutParams lineLp = new LinearLayout.LayoutParams(dp(520), dp(3));
         lineLp.topMargin = dp(10);
