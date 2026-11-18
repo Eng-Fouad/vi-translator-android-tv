@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">PC の VI Translator にこのコードを入力してください</string>
-    <string name="where_on_pc">PC で: ソース › テレビに表示 › テレビを接続</string>
+    <string name="where_on_pc">PC で: 表示先 › テレビを接続</string>
     <string name="this_tv">このテレビ: %1$s</string>
     <string name="connected_to">%1$s に接続しました</string>
     <string name="looking_for">%1$s を探しています…</string>

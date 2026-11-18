@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">Masukkan kode ini di VI Translator di PC Anda</string>
-    <string name="where_on_pc">Di PC: Sumber › Tampilkan di TV › Hubungkan TV</string>
+    <string name="where_on_pc">Di PC: Tampilkan di › Hubungkan TV</string>
     <string name="this_tv">TV ini: %1$s</string>
     <string name="connected_to">Terhubung ke %1$s</string>
     <string name="looking_for">Mencari %1$s…</string>

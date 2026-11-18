@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">Bu kodu bilgisayarınızdaki VI Translator\'a girin</string>
-    <string name="where_on_pc">Bilgisayarda: Kaynak › Televizyonda göster › Televizyon bağla</string>
+    <string name="where_on_pc">Bilgisayarda: Şurada göster › Televizyon bağla</string>
     <string name="this_tv">Bu televizyon: %1$s</string>
     <string name="connected_to">%1$s cihazına bağlandı</string>
     <string name="looking_for">%1$s aranıyor…</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">உங்கள் கணினியில் VI Translator-இல் இந்தக் குறியீட்டை உள்ளிடவும்</string>
-    <string name="where_on_pc">கணினியில்: மூலம் › டிவியில் காட்டு › டிவியை இணை</string>
+    <string name="where_on_pc">கணினியில்: காட்டும் இடம் › டிவியை இணை</string>
     <string name="this_tv">இந்த டிவி: %1$s</string>
     <string name="connected_to">%1$s உடன் இணைந்தது</string>
     <string name="looking_for">%1$s தேடப்படுகிறது…</string>

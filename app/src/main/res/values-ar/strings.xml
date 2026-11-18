@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">أدخل هذا الرمز في VI Translator على جهاز الكمبيوتر</string>
-    <string name="where_on_pc">على الكمبيوتر: المصدر › العرض على التلفاز › ربط تلفاز</string>
+    <string name="where_on_pc">على الكمبيوتر: العرض على › ربط تلفاز</string>
     <string name="this_tv">هذا التلفاز: %1$s</string>
     <string name="connected_to">متصل بـ %1$s</string>
     <string name="looking_for">جارٍ البحث عن %1$s…</string>

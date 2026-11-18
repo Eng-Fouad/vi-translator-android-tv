@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">మీ PCలో VI Translatorలో ఈ కోడ్‌ను నమోదు చేయండి</string>
-    <string name="where_on_pc">PCలో: మూలం › టీవీలో చూపించు › టీవీని కనెక్ట్ చేయండి</string>
+    <string name="where_on_pc">PCలో: చూపే చోటు › టీవీని కనెక్ట్ చేయండి</string>
     <string name="this_tv">ఈ టీవీ: %1$s</string>
     <string name="connected_to">%1$sకి కనెక్ట్ అయింది</string>
     <string name="looking_for">%1$s కోసం వెతుకుతోంది…</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">Zadejte tento kód ve VI Translator na počítači</string>
-    <string name="where_on_pc">V počítači: Zdroj › Zobrazit na televizi › Připojit televizi</string>
+    <string name="where_on_pc">V počítači: Zobrazit na › Připojit televizi</string>
     <string name="this_tv">Tato televize: %1$s</string>
     <string name="connected_to">Připojeno k %1$s</string>
     <string name="looking_for">Hledá se %1$s…</string>

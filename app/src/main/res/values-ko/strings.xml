@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">PC의 VI Translator에 이 코드를 입력하세요</string>
-    <string name="where_on_pc">PC에서: 소스 › TV에 표시 › TV 연결</string>
+    <string name="where_on_pc">PC에서: 표시 위치 › TV 연결</string>
     <string name="this_tv">이 TV: %1$s</string>
     <string name="connected_to">%1$s에 연결됨</string>
     <string name="looking_for">%1$s 찾는 중…</string>

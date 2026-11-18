@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">Πληκτρολογήστε αυτόν τον κωδικό στο VI Translator στον υπολογιστή σας</string>
-    <string name="where_on_pc">Στον υπολογιστή: Πηγή › Προβολή σε τηλεόραση › Σύνδεση τηλεόρασης</string>
+    <string name="where_on_pc">Στον υπολογιστή: Προβολή σε › Σύνδεση τηλεόρασης</string>
     <string name="this_tv">Αυτή η τηλεόραση: %1$s</string>
     <string name="connected_to">Συνδέθηκε με %1$s</string>
     <string name="looking_for">Αναζήτηση %1$s…</string>

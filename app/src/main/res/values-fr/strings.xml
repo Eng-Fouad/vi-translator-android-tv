@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">Saisissez ce code dans VI Translator sur votre PC</string>
-    <string name="where_on_pc">Sur le PC: Source › Afficher sur une TV › Connecter une TV</string>
+    <string name="where_on_pc">Sur le PC: Afficher sur › Connecter une TV</string>
     <string name="this_tv">Cette TV : %1$s</string>
     <string name="connected_to">Connecté à %1$s</string>
     <string name="looking_for">Recherche de %1$s…</string>

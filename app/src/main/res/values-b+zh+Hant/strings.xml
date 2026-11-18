@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">在電腦上的 VI Translator 中輸入此代碼</string>
-    <string name="where_on_pc">在電腦上: 來源 › 在電視上顯示 › 連線電視</string>
+    <string name="where_on_pc">在電腦上: 顯示位置 › 連線電視</string>
     <string name="this_tv">這台電視：%1$s</string>
     <string name="connected_to">已連線到 %1$s</string>
     <string name="looking_for">正在尋找 %1$s…</string>

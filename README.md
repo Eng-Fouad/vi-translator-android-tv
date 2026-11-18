@@ -33,7 +33,7 @@ The overlay never takes the remote: it keeps working the TV and the game under i
    install it with `adb install`.
 2. **Open it:** it shows a 6-digit code. It keeps waiting for 10 minutes after you leave it, so
    you can switch the TV to the PC's input if the PC is on the same TV.
-3. **On the PC:** in VI Translator, *Source* tab, *Show on a TV*, *Connect a TV*. Type the code and
+3. **On the PC:** in VI Translator, *Show on* tab, *Connect a TV*. Type the code and
    press *Connect*. Sharing on the home network is turned on if it was off.
 4. **Allow it to draw over other apps** if the app asks. If the TV has no such setting (some TCL
    models hide it), allow it once from a computer, with developer options and USB or network

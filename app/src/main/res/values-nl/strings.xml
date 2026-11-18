@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">Voer deze code in bij VI Translator op je pc</string>
-    <string name="where_on_pc">Op de pc: Bron › Op een tv tonen › Tv koppelen</string>
+    <string name="where_on_pc">Op de pc: Tonen op › Tv koppelen</string>
     <string name="this_tv">Deze tv: %1$s</string>
     <string name="connected_to">Gekoppeld aan %1$s</string>
     <string name="looking_for">%1$s zoeken…</string>

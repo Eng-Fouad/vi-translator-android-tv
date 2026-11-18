@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">Введіть цей код у VI Translator на ПК</string>
-    <string name="where_on_pc">На ПК: Джерело › Показати на телевізорі › Підключити телевізор</string>
+    <string name="where_on_pc">На ПК: Показ на › Підключити телевізор</string>
     <string name="this_tv">Цей телевізор: %1$s</string>
     <string name="connected_to">Підключено до %1$s</string>
     <string name="looking_for">Пошук %1$s…</string>

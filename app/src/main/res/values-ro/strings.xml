@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">Introdu acest cod în VI Translator pe PC</string>
-    <string name="where_on_pc">Pe PC: Sursă › Afișează pe un televizor › Conectează un televizor</string>
+    <string name="where_on_pc">Pe PC: Afișare pe › Conectează un televizor</string>
     <string name="this_tv">Acest televizor: %1$s</string>
     <string name="connected_to">Conectat la %1$s</string>
     <string name="looking_for">Se caută %1$s…</string>

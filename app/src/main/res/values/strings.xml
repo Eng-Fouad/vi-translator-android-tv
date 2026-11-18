@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name" translatable="false">VI Translator</string>
     <string name="enter_code">Enter this code in VI Translator on your PC</string>
-    <string name="where_on_pc">On the PC: Source › Show on a TV › Connect a TV</string>
+    <string name="where_on_pc">On the PC: Show on › Connect a TV</string>
     <string name="this_tv">This TV: %1$s</string>
     <string name="connected_to">Connected to %1$s</string>
     <string name="looking_for">Looking for %1$s…</string>

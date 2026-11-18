@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">اپنے پی سی پر VI Translator میں یہ کوڈ درج کریں</string>
-    <string name="where_on_pc">پی سی پر: سورس › ٹی وی پر دکھائیں › ٹی وی جوڑیں</string>
+    <string name="where_on_pc">پی سی پر: یہاں دکھائیں › ٹی وی جوڑیں</string>
     <string name="this_tv">یہ ٹی وی: %1$s</string>
     <string name="connected_to">%1$s سے جڑا ہے</string>
     <string name="looking_for">%1$s تلاش کیا جا رہا ہے…</string>

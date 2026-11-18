@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">Weka msimbo huu katika VI Translator kwenye kompyuta yako</string>
-    <string name="where_on_pc">Kwenye kompyuta: Chanzo › Onyesha kwenye TV › Unganisha TV</string>
+    <string name="where_on_pc">Kwenye kompyuta: Onyesha kwenye › Unganisha TV</string>
     <string name="this_tv">TV hii: %1$s</string>
     <string name="connected_to">Imeunganishwa na %1$s</string>
     <string name="looking_for">Inatafuta %1$s…</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">ใส่รหัสนี้ใน VI Translator บนพีซีของคุณ</string>
-    <string name="where_on_pc">บนพีซี: แหล่งภาพ › แสดงบนทีวี › เชื่อมต่อทีวี</string>
+    <string name="where_on_pc">บนพีซี: แสดงบน › เชื่อมต่อทีวี</string>
     <string name="this_tv">ทีวีเครื่องนี้: %1$s</string>
     <string name="connected_to">เชื่อมต่อกับ %1$s แล้ว</string>
     <string name="looking_for">กำลังค้นหา %1$s…</string>

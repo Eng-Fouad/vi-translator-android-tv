@@ -62,7 +62,7 @@ the app's core feature. Say so in the description (it does) and in the reviewer 
 > from the free VI Translator app on a Windows, macOS or Linux PC on the same network
 > (https://github.com/vi-translator/vi-translator-desktop/releases). To test:
 > 1. Open the app on the TV: it shows a 6-digit code.
-> 2. On the PC, start VI Translator, open *Source → Show on a TV → Connect a TV*, type the code, press *Connect*.
+> 2. On the PC, start VI Translator, open *Show on → Connect a TV*, type the code, press *Connect*.
 > 3. In the PC app pick any source (a capture card, or *Screen* to read the PC's own screen) with English
 >    subtitles on screen; the translations appear over the TV picture.
 > 4. If the TV asks, allow *Display over other apps*.

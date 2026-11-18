@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter_code">Nhập mã này trong VI Translator trên PC</string>
-    <string name="where_on_pc">Trên PC: Nguồn › Hiển thị trên TV › Kết nối TV</string>
+    <string name="where_on_pc">Trên PC: Hiển thị trên › Kết nối TV</string>
     <string name="this_tv">TV này: %1$s</string>
     <string name="connected_to">Đã kết nối với %1$s</string>
     <string name="looking_for">Đang tìm %1$s…</string>
