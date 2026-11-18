@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">أدخل هذا الرمز في VI Translator على جهاز الكمبيوتر</string>
+    <string name="where_on_pc">على الكمبيوتر: تبويب المصدر، العرض على التلفاز، ربط تلفاز</string>
+    <string name="this_tv">هذا التلفاز: %1$s</string>
+    <string name="connected_to">متصل بـ %1$s</string>
+    <string name="looking_for">جارٍ البحث عن %1$s…</string>
+    <string name="overlays_off">متصل بـ %1$s، لكن الترجمة على اللعبة مُطفأة فيه</string>
+    <string name="show_on">العرض على: %1$s</string>
+    <string name="all_inputs">كل المداخل</string>
+    <string name="disconnect">قطع الاتصال</string>
+    <string name="permission_needed">ليرسم فوق اللعبة، يحتاج هذا التطبيق إلى إذن «العرض فوق التطبيقات الأخرى».</string>
+    <string name="allow">السماح</string>
+    <string name="adb_hint">لا يوجد هذا الإعداد في التلفاز؟ اسمح به مرة واحدة من كمبيوتر: %1$s</string>
+    <string name="pair_channel">الربط</string>
+    <string name="pair_notify">بانتظار أن يربط VI Translator على الكمبيوتر هذا التلفاز</string>
+    <string name="notify_channel">الطبقة</string>
+    <string name="notify_text">تُعرض الترجمات فوق صورة التلفاز</string>
+</resources>
