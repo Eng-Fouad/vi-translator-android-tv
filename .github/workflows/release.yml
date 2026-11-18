@@ -1,6 +1,8 @@
 # Pushing a tag vX.Y.Z releases version X.Y.Z of the app, attached to a GitHub Release:
 #   vi-translator-android-tv-X.Y.Z.apk  signed APK, to install directly (Downloader, adb)
 #   vi-translator-android-tv-X.Y.Z.aab  signed app bundle, to upload to Google Play (the key is Play's upload key)
+#   vi-translator-android-tv.apk        the same APK without the version: .../releases/latest/download/vi-translator-android-tv.apk
+#                                       always serves the newest one (the Downloader code points there)
 #
 # Same tag rules as the desktop app: the tag must look like v1.2.3 and be newer than the latest release.
 #
@@ -93,6 +95,7 @@ jobs:
           mkdir -p out
           cp "$APK" "out/vi-translator-android-tv-$VERSION.apk"
           cp "$AAB" "out/vi-translator-android-tv-$VERSION.aab"
+          cp "$APK" "out/vi-translator-android-tv.apk"
           rm -f "$ANDROID_KEYSTORE"
           ls -l out
 
