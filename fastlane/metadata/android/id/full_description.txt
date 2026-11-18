@@ -1,0 +1,21 @@
+VI Translator menampilkan subtitle game yang sudah diterjemahkan ke bahasamu, secara langsung, tepat di atas game di TV kamu.
+
+Aplikasi ini bekerja bersama VI Translator di PC kamu (gratis, dari vitranslator.app). Konsolmu tersambung ke TV melalui capture card. PC membaca subtitle dari capture card lalu menerjemahkannya, dan aplikasi ini menampilkan terjemahannya di atas gambar TV, tepat di tempatnya. Hanya teks yang melewati jaringan rumahmu, jadi terjemahan muncul secepat di PC, dan game tampil di TV dengan kualitas penuh tanpa tambahan jeda.
+
+• Terjemahan di atas game, langsung di TV
+• Tersambung ke PC dengan kode 6 digit: tanpa akun
+• Tampil di semua input, atau hanya di input HDMI konsolmu (di TV yang memberi tahu input mana yang sedang tampil di layar)
+• Tidak pernah mengambil alih remote: TV dan game tetap berfungsi di bawah terjemahan
+• Otomatis berjalan lagi saat TV dinyalakan, dan menemukan PC lagi jika alamatnya berubah
+• Aplikasi tersedia dalam 33 bahasa
+
+Yang kamu butuhkan:
+• TV dengan Android TV atau Google TV
+• PC yang menjalankan VI Translator, di jaringan rumah yang sama
+• Capture card dengan HDMI passthrough di antara konsol dan TV
+
+Gaya teks, bahasa terjemahan, dan apa yang dibaca semuanya diatur di VI Translator di PC. Panduan penyiapan langkah demi langkah: vitranslator.app
+
+Privasi: aplikasi ini hanya berkomunikasi dengan PC kamu sendiri, di jaringan rumahmu, dan tidak mengumpulkan data apa pun.
+
+VI Translator adalah proyek penggemar tidak resmi, tidak berafiliasi dengan maupun didukung oleh penerbit game mana pun.

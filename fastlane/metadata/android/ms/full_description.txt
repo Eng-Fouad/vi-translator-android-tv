@@ -1,0 +1,21 @@
+VI Translator memaparkan sari kata permainan yang diterjemah ke bahasa anda, secara langsung, tepat di atas permainan pada TV anda.
+
+Ia berfungsi bersama VI Translator pada PC anda (percuma, dari vitranslator.app). Konsol anda dimainkan melalui capture card ke TV. PC membaca sari kata daripada capture card dan menterjemahkannya, dan apl ini memaparkan terjemahan di atas gambar TV, tepat di tempatnya. Hanya teks yang melalui rangkaian rumah anda, jadi terjemahan muncul sepantas pada PC, dan permainan sampai ke TV anda dalam kualiti penuh tanpa kelewatan tambahan.
+
+• Terjemahan di atas permainan, terus pada TV
+• Berpasangan dengan PC anda menggunakan kod 6 digit: tanpa akaun
+• Dipaparkan pada semua input, atau hanya pada input HDMI konsol anda (pada TV yang melaporkan input mana yang sedang dipaparkan)
+• Tidak sekali-kali mengambil alih alat kawalan jauh: TV dan permainan terus berfungsi di bawah terjemahan
+• Bermula semula dengan sendiri apabila TV dihidupkan, dan menemui PC semula jika alamatnya berubah
+• Apl ini tersedia dalam 33 bahasa
+
+Apa yang anda perlukan:
+• TV dengan Android TV atau Google TV
+• PC yang menjalankan VI Translator, pada rangkaian rumah yang sama
+• Capture card dengan HDMI passthrough antara konsol dan TV
+
+Gaya teks, bahasa terjemahan dan apa yang dibaca semuanya ditetapkan dalam VI Translator pada PC. Panduan persediaan langkah demi langkah: vitranslator.app
+
+Privasi: apl ini hanya berhubung dengan PC anda sendiri, pada rangkaian rumah anda, dan tidak mengumpul sebarang data.
+
+VI Translator ialah projek peminat tidak rasmi, tidak bergabung dengan atau disokong oleh mana-mana penerbit permainan.

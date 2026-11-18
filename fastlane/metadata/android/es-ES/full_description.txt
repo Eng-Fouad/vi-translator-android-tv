@@ -1,0 +1,21 @@
+VI Translator muestra los subtítulos de un juego traducidos a tu idioma, en directo, justo encima del juego en tu televisor.
+
+Funciona junto con VI Translator en tu PC (gratis, en vitranslator.app). Tu consola se conecta al televisor a través de una capturadora. El PC lee los subtítulos de la capturadora y los traduce, y esta app dibuja las traducciones sobre la imagen del televisor, justo donde tienen que estar. Por tu red doméstica solo viaja texto, así que las traducciones aparecen tan rápido como en el PC, y el juego llega al televisor con toda su calidad y sin retardo añadido.
+
+• Traducciones sobre el juego, en el propio televisor
+• Se empareja con tu PC mediante un código de 6 dígitos: sin cuentas
+• Se muestra en todas las entradas o solo en la entrada HDMI de tu consola (en televisores que indican qué entrada se está viendo)
+• Nunca se queda con el mando: el televisor y el juego siguen funcionando bajo las traducciones
+• Se vuelve a abrir sola al encender el televisor y vuelve a encontrar el PC si cambia su dirección
+• La app habla 33 idiomas
+
+Qué necesitas:
+• Un televisor con Android TV o Google TV
+• Un PC con VI Translator, en la misma red doméstica
+• Una capturadora con passthrough HDMI entre la consola y el televisor
+
+El estilo del texto, el idioma de traducción y lo que se lee se configuran en VI Translator en el PC. Guía de configuración paso a paso: vitranslator.app
+
+Privacidad: la app solo se comunica con tu propio PC, en tu red doméstica, y no recopila ningún dato.
+
+VI Translator es un proyecto no oficial creado por fans, sin afiliación ni respaldo de ningún editor de videojuegos.

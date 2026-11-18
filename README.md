@@ -68,7 +68,8 @@ Needs JDK 17 or newer and the Android SDK (platform 36), or open the folder in A
 
 ## Releases
 
-Pushing a tag like `v1.2.3` builds the signed APK and attaches it to a GitHub Release
+Pushing a tag like `v1.2.3` builds the signed APK (to install directly) and app bundle (`.aab`, for
+Google Play) and attaches them to a GitHub Release
 (`.github/workflows/release.yml`). The tag must be newer than the latest release. Every release is
 signed with the same key, set in the repository's secrets: `ANDROID_KEYSTORE_B64` (the keystore,
 base64), `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS` and `ANDROID_KEY_PASSWORD`. Keep a backup

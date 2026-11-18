@@ -1,0 +1,21 @@
+VI Translator zeigt die Untertitel eines Spiels live in deiner Sprache – direkt über dem Spiel auf deinem Fernseher.
+
+Die App arbeitet mit VI Translator auf deinem PC zusammen (kostenlos auf vitranslator.app). Deine Konsole läuft über eine Capture-Karte zum Fernseher. Der PC liest die Untertitel von der Capture-Karte und übersetzt sie, und diese App blendet die Übersetzungen genau dort über dem TV-Bild ein, wo sie hingehören. Durch dein Heimnetz geht nur Text – deshalb erscheinen die Übersetzungen so schnell wie auf dem PC, und das Spiel kommt in voller Qualität und ohne zusätzliche Verzögerung auf deinem Fernseher an.
+
+• Übersetzungen über dem Spiel, direkt auf dem Fernseher
+• Koppelt sich per 6-stelligem Code mit deinem PC: kein Konto nötig
+• Erscheint auf allen Eingängen oder nur auf dem HDMI-Eingang deiner Konsole (bei Fernsehern, die melden, welcher Eingang gerade angezeigt wird)
+• Blockiert nie die Fernbedienung: Fernseher und Spiel lassen sich unter den Übersetzungen ganz normal bedienen
+• Startet von selbst neu, wenn der Fernseher eingeschaltet wird, und findet den PC wieder, wenn sich seine Adresse ändert
+• Die App spricht 33 Sprachen
+
+Das brauchst du:
+• Einen Fernseher mit Android TV oder Google TV
+• Einen PC mit VI Translator im selben Heimnetz
+• Eine Capture-Karte mit HDMI-Passthrough zwischen Konsole und Fernseher
+
+Textstil, Übersetzungssprache und was gelesen wird, stellst du alles in VI Translator auf dem PC ein. Schritt-für-Schritt-Anleitung: vitranslator.app
+
+Datenschutz: Die App kommuniziert nur mit deinem eigenen PC in deinem Heimnetz und sammelt keine Daten.
+
+VI Translator ist ein inoffizielles Fanprojekt, das mit keinem Spielepublisher verbunden ist und von keinem unterstützt wird.

@@ -1,10 +1,11 @@
-# Pushing a tag vX.Y.Z releases version X.Y.Z of the app: a signed APK for Android TV
-# (vi-translator-android-tv-X.Y.Z.apk), attached to a GitHub Release.
+# Pushing a tag vX.Y.Z releases version X.Y.Z of the app, attached to a GitHub Release:
+#   vi-translator-android-tv-X.Y.Z.apk  signed APK, to install directly (Downloader, adb)
+#   vi-translator-android-tv-X.Y.Z.aab  signed app bundle, to upload to Google Play (the key is Play's upload key)
 #
 # Same tag rules as the desktop app: the tag must look like v1.2.3 and be newer than the latest release.
 #
 # Repository secrets (the same key must sign every release, or the TV refuses the update):
-#   ANDROID_KEYSTORE_B64       the release keystore (.jks), base64
+#   ANDROID_KEYSTORE_B64       the release keystore (PKCS12 .p12), base64
 #   ANDROID_KEYSTORE_PASSWORD  the keystore's password
 #   ANDROID_KEY_ALIAS          the key's alias in it
 #   ANDROID_KEY_PASSWORD       the key's password
@@ -70,23 +71,28 @@ jobs:
         run: |
           [ -n "$KEYSTORE_B64" ] || { echo "::error::secret ANDROID_KEYSTORE_B64 is not set"; exit 1; }
           umask 077
-          printf '%s' "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.jks"
-          echo "ANDROID_KEYSTORE=$RUNNER_TEMP/release.jks" >> "$GITHUB_ENV"
+          printf '%s' "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.p12"
+          echo "ANDROID_KEYSTORE=$RUNNER_TEMP/release.p12" >> "$GITHUB_ENV"
 
       - name: Build
         env:
           ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
-        run: ./gradlew --no-daemon assembleRelease lintRelease -Pversion="$VERSION"
+        run: ./gradlew --no-daemon assembleRelease bundleRelease lintRelease -Pversion="$VERSION"
 
-      - name: Check the signature and name the APK
+      - name: Check the signatures and name the files
         run: |
           APK=app/build/outputs/apk/release/app-release.apk
-          [ -f "$APK" ] || { echo "::error::no signed APK (is the keystore right?)"; ls -R app/build/outputs/apk; exit 1; }
+          AAB=app/build/outputs/bundle/release/app-release.aab
+          [ -f "$APK" ] || { echo "::error::no signed APK (is the keystore right?)"; ls -R app/build/outputs; exit 1; }
+          [ -f "$AAB" ] || { echo "::error::no app bundle"; ls -R app/build/outputs; exit 1; }
           "$ANDROID_HOME"/build-tools/$(ls "$ANDROID_HOME"/build-tools | sort -V | tail -n1)/apksigner verify --print-certs "$APK"
+          jarsigner -verify "$AAB" | grep -q "^jar verified" || { echo "::error::the app bundle isn't signed"; exit 1; }
+          echo "app bundle signed"
           mkdir -p out
           cp "$APK" "out/vi-translator-android-tv-$VERSION.apk"
+          cp "$AAB" "out/vi-translator-android-tv-$VERSION.aab"
           rm -f "$ANDROID_KEYSTORE"
           ls -l out
 

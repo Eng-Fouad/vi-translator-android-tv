@@ -1,0 +1,21 @@
+VI Translator wyświetla napisy z gry przetłumaczone na Twój język – na żywo, bezpośrednio na obrazie gry na Twoim telewizorze.
+
+Działa razem z VI Translator na Twoim PC (za darmo, ze strony vitranslator.app). Obraz z konsoli trafia do telewizora przez kartę przechwytującą. PC odczytuje napisy z karty przechwytującej i je tłumaczy, a ta aplikacja wyświetla tłumaczenia na obrazie telewizora – dokładnie tam, gdzie ich miejsce. Przez sieć domową przesyłany jest tylko tekst, więc tłumaczenia pojawiają się tak samo szybko jak na PC, a gra trafia na telewizor w pełnej jakości i bez dodatkowego opóźnienia.
+
+• Tłumaczenia na obrazie gry, bezpośrednio na telewizorze
+• Parowanie z PC za pomocą 6-cyfrowego kodu: bez zakładania konta
+• Wyświetlanie na wszystkich wejściach albo tylko na wejściu HDMI konsoli (w telewizorach, które informują, które wejście jest na ekranie)
+• Nigdy nie przejmuje pilota: telewizor i gra działają normalnie pod tłumaczeniami
+• Uruchamia się sama po włączeniu telewizora i ponownie odnajduje PC, gdy zmieni się jego adres
+• Aplikacja mówi w 33 językach
+
+Czego potrzebujesz:
+• Telewizora z Android TV lub Google TV
+• PC z uruchomionym VI Translator w tej samej sieci domowej
+• Karty przechwytującej z przelotem HDMI (passthrough) między konsolą a telewizorem
+
+Styl tekstu, język tłumaczenia i to, co jest odczytywane, ustawisz w VI Translator na PC. Konfiguracja krok po kroku: vitranslator.app
+
+Prywatność: aplikacja łączy się wyłącznie z Twoim własnym PC w sieci domowej i nie zbiera żadnych danych.
+
+VI Translator to nieoficjalny projekt fanowski, niepowiązany z żadnym wydawcą gier ani przez żadnego z nich niewspierany.

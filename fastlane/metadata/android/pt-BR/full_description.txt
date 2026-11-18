@@ -1,0 +1,21 @@
+O VI Translator mostra as legendas de um jogo traduzidas para o seu idioma, ao vivo, bem em cima do jogo na sua TV.
+
+Ele funciona junto com o VI Translator no seu PC (grátis, em vitranslator.app). O sinal do seu console passa por uma placa de captura até a TV. O PC lê as legendas pela placa de captura e as traduz, e este app exibe as traduções sobre a imagem da TV, no lugar certo. Só texto trafega pela sua rede doméstica, então as traduções aparecem tão rápido quanto no PC, e o jogo chega à sua TV com qualidade total e sem atraso extra.
+
+• Traduções sobre o jogo, na própria TV
+• Pareamento com o PC por um código de 6 dígitos: sem conta
+• Aparece em todas as entradas ou só na entrada HDMI do console (em TVs que informam qual entrada está na tela)
+• Nunca toma o controle remoto: a TV e o jogo continuam funcionando por baixo das traduções
+• Abre sozinho quando a TV liga e reencontra o PC se o endereço dele mudar
+• O app fala 33 idiomas
+
+O que você precisa:
+• Uma TV com Android TV ou Google TV
+• Um PC rodando o VI Translator, na mesma rede doméstica
+• Uma placa de captura com passthrough HDMI entre o console e a TV
+
+O estilo do texto, o idioma da tradução e o que é lido são definidos no VI Translator no PC. Configuração passo a passo: vitranslator.app
+
+Privacidade: o app se comunica apenas com o seu próprio PC, na sua rede doméstica, e não coleta nenhum dado.
+
+O VI Translator é um projeto não oficial feito por fãs, sem afiliação nem endosso de nenhuma publicadora de jogos.
