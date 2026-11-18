@@ -26,8 +26,11 @@ The overlay never takes the remote: it keeps working the TV and the game under i
 
 ## Setup
 
-1. **Install the app on the TV:** copy the APK to the TV, for example with the *Downloader* app or
-   with `adb install`.
+1. **Install the app on the TV:** install *Downloader* from Google Play on the TV, open it and enter
+   the code **5773547**: it downloads the APK, then press *Install* (allow Downloader to install apps
+   if the TV asks). Or download the APK from the
+   [latest release](https://github.com/vi-translator/vi-translator-android-tv/releases/latest) and
+   install it with `adb install`.
 2. **Open it:** it shows a 6-digit code. It keeps waiting for 10 minutes after you leave it, so
    you can switch the TV to the PC's input if the PC is on the same TV.
 3. **On the PC:** in VI Translator, *Source* tab, *Show on a TV*, *Connect a TV*. Type the code and
