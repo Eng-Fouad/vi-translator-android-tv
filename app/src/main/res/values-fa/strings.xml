@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">این کد را در VI Translator روی رایانه وارد کنید</string>
+    <string name="where_on_pc">روی رایانه: منبع › نمایش روی تلویزیون › اتصال یک تلویزیون</string>
+    <string name="this_tv">این تلویزیون: %1$s</string>
+    <string name="connected_to">متصل به %1$s</string>
+    <string name="looking_for">در حال جستجوی %1$s…</string>
+    <string name="overlays_off">متصل به %1$s، اما همپوشانی‌هایش خاموش است</string>
+    <string name="show_on">نمایش روی: %1$s</string>
+    <string name="all_inputs">همه ورودی‌ها</string>
+    <string name="disconnect">قطع اتصال</string>
+    <string name="permission_needed">برای نمایش روی بازی، این برنامه به اجازه «نمایش روی برنامه‌های دیگر» نیاز دارد.</string>
+    <string name="allow">اجازه دادن</string>
+    <string name="adb_hint">این تنظیم در تلویزیون نیست؟ یک بار از رایانه اجازه دهید: %1$s</string>
+    <string name="pair_channel">اتصال</string>
+    <string name="pair_notify">در انتظار اینکه VI Translator روی رایانه این تلویزیون را وصل کند</string>
+    <string name="notify_channel">همپوشانی</string>
+    <string name="notify_text">ترجمه‌ها روی تصویر تلویزیون نمایش داده می‌شوند</string>
+    <string name="webview_old">موتور وب این تلویزیون برای نمایش ترجمه‌ها خیلی قدیمی است. «Android System WebView» را از Google Play به‌روز کنید.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">Wpisz ten kod w VI Translator na komputerze</string>
+    <string name="where_on_pc">Na komputerze: Źródło › Pokaż na telewizorze › Połącz telewizor</string>
+    <string name="this_tv">Ten telewizor: %1$s</string>
+    <string name="connected_to">Połączono z %1$s</string>
+    <string name="looking_for">Szukanie %1$s…</string>
+    <string name="overlays_off">Połączono z %1$s, ale jego nakładki są wyłączone</string>
+    <string name="show_on">Pokazuj na: %1$s</string>
+    <string name="all_inputs">Wszystkich wejściach</string>
+    <string name="disconnect">Rozłącz</string>
+    <string name="permission_needed">Aby wyświetlać nad grą, aplikacja potrzebuje uprawnienia „Wyświetlanie nad innymi aplikacjami”.</string>
+    <string name="allow">Zezwól</string>
+    <string name="adb_hint">Telewizor nie ma tego ustawienia? Zezwól raz z komputera: %1$s</string>
+    <string name="pair_channel">Łączenie</string>
+    <string name="pair_notify">Czekanie, aż VI Translator na komputerze połączy ten telewizor</string>
+    <string name="notify_channel">Nakładka</string>
+    <string name="notify_text">Tłumaczenia są pokazywane na obrazie telewizora</string>
+    <string name="webview_old">Silnik WWW tego telewizora jest zbyt stary, by rysować tłumaczenia. Zaktualizuj „Android System WebView” w Google Play.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">在電腦上的 VI Translator 中輸入此代碼</string>
+    <string name="where_on_pc">在電腦上: 來源 › 在電視上顯示 › 連線電視</string>
+    <string name="this_tv">這台電視：%1$s</string>
+    <string name="connected_to">已連線到 %1$s</string>
+    <string name="looking_for">正在尋找 %1$s…</string>
+    <string name="overlays_off">已連線到 %1$s，但其疊加層已關閉</string>
+    <string name="show_on">顯示於：%1$s</string>
+    <string name="all_inputs">所有輸入來源</string>
+    <string name="disconnect">中斷連線</string>
+    <string name="permission_needed">要顯示在遊戲畫面上方，此應用程式需要「顯示在其他應用程式上層」權限。</string>
+    <string name="allow">允許</string>
+    <string name="adb_hint">電視上沒有此設定？請從電腦上允許一次：%1$s</string>
+    <string name="pair_channel">連線</string>
+    <string name="pair_notify">正在等待電腦上的 VI Translator 連線這台電視</string>
+    <string name="notify_channel">疊加層</string>
+    <string name="notify_text">正在電視畫面上方顯示翻譯</string>
+    <string name="webview_old">這台電視的網頁引擎太舊，無法繪製翻譯。請在 Google Play 中更新「Android System WebView」。</string>
+</resources>

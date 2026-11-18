@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">Ilagay ang code na ito sa VI Translator sa iyong PC</string>
+    <string name="where_on_pc">Sa PC: Source › Ipakita sa TV › Magkonekta ng TV</string>
+    <string name="this_tv">Ang TV na ito: %1$s</string>
+    <string name="connected_to">Nakakonekta sa %1$s</string>
+    <string name="looking_for">Hinahanap ang %1$s…</string>
+    <string name="overlays_off">Nakakonekta sa %1$s, pero naka-off ang mga overlay nito</string>
+    <string name="show_on">Ipakita sa: %1$s</string>
+    <string name="all_inputs">Lahat ng input</string>
+    <string name="disconnect">Idiskonekta</string>
+    <string name="permission_needed">Para lumabas sa ibabaw ng laro, kailangan ng app na ito ang \"Ipakita sa ibabaw ng ibang app\".</string>
+    <string name="allow">Payagan</string>
+    <string name="adb_hint">Walang ganitong setting sa TV? Payagan ito nang isang beses mula sa isang computer: %1$s</string>
+    <string name="pair_channel">Pagkonekta</string>
+    <string name="pair_notify">Hinihintay ang VI Translator sa iyong PC na ikonekta ang TV na ito</string>
+    <string name="notify_channel">Overlay</string>
+    <string name="notify_text">Ipinapakita ang mga salin sa ibabaw ng larawan ng TV</string>
+    <string name="webview_old">Masyadong luma ang web engine ng TV na ito para iguhit ang mga salin. I-update ang \"Android System WebView\" mula sa Google Play.</string>
+</resources>

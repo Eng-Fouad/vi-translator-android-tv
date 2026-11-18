@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">तुमच्या पीसीवरील VI Translator मध्ये हा कोड टाका</string>
+    <string name="where_on_pc">पीसीवर: स्रोत › टीव्हीवर दाखवा › टीव्ही जोडा</string>
+    <string name="this_tv">हा टीव्ही: %1$s</string>
+    <string name="connected_to">%1$s शी जोडले</string>
+    <string name="looking_for">%1$s शोधत आहे…</string>
+    <string name="overlays_off">%1$s शी जोडले, पण त्याचे ओव्हरले बंद आहेत</string>
+    <string name="show_on">दाखवा: %1$s</string>
+    <string name="all_inputs">सर्व इनपुट</string>
+    <string name="disconnect">डिस्कनेक्ट करा</string>
+    <string name="permission_needed">गेमवर दाखवण्यासाठी या अॅपला \"इतर अॅप्सवर दाखवा\" परवानगी हवी.</string>
+    <string name="allow">परवानगी द्या</string>
+    <string name="adb_hint">टीव्हीमध्ये हे सेटिंग नाही? संगणकावरून एकदा परवानगी द्या: %1$s</string>
+    <string name="pair_channel">जोडणी</string>
+    <string name="pair_notify">तुमच्या पीसीवरील VI Translator हा टीव्ही जोडण्याची वाट पाहत आहे</string>
+    <string name="notify_channel">ओव्हरले</string>
+    <string name="notify_text">टीव्हीच्या चित्रावर भाषांतरे दाखवत आहे</string>
+    <string name="webview_old">या टीव्हीचे वेब इंजिन भाषांतरे दाखवण्यासाठी खूप जुने आहे. Google Play वरून \"Android System WebView\" अपडेट करा.</string>
+</resources>

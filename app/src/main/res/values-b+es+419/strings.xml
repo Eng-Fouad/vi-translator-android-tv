@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">Escribe este código en VI Translator en tu PC</string>
+    <string name="where_on_pc">En la PC: Origen › Mostrar en una TV › Conectar una TV</string>
+    <string name="this_tv">Esta TV: %1$s</string>
+    <string name="connected_to">Conectado a %1$s</string>
+    <string name="looking_for">Buscando %1$s…</string>
+    <string name="overlays_off">Conectado a %1$s, pero sus superposiciones están desactivadas</string>
+    <string name="show_on">Mostrar en: %1$s</string>
+    <string name="all_inputs">Todas las entradas</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="permission_needed">Para mostrarse sobre el juego, esta app necesita «Mostrar sobre otras apps».</string>
+    <string name="allow">Permitir</string>
+    <string name="adb_hint">¿La TV no tiene ese ajuste? Permítelo una vez desde una computadora: %1$s</string>
+    <string name="pair_channel">Conexión</string>
+    <string name="pair_notify">Esperando a que VI Translator en tu PC conecte esta TV</string>
+    <string name="notify_channel">Superposición</string>
+    <string name="notify_text">Mostrando las traducciones sobre la imagen de la TV</string>
+    <string name="webview_old">El motor web de esta TV es demasiado antiguo para dibujar las traducciones. Actualiza «Android System WebView» desde Google Play.</string>
+</resources>

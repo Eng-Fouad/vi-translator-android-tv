@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">Bu kodu bilgisayarınızdaki VI Translator\'a girin</string>
+    <string name="where_on_pc">Bilgisayarda: Kaynak › Televizyonda göster › Televizyon bağla</string>
+    <string name="this_tv">Bu televizyon: %1$s</string>
+    <string name="connected_to">%1$s cihazına bağlandı</string>
+    <string name="looking_for">%1$s aranıyor…</string>
+    <string name="overlays_off">%1$s cihazına bağlandı, ancak katmanları kapalı</string>
+    <string name="show_on">Göster: %1$s</string>
+    <string name="all_inputs">Tüm girişler</string>
+    <string name="disconnect">Bağlantıyı kes</string>
+    <string name="permission_needed">Oyunun üzerinde görünmek için bu uygulamanın \"Diğer uygulamaların üzerinde göster\" iznine ihtiyacı var.</string>
+    <string name="allow">İzin ver</string>
+    <string name="adb_hint">Televizyonda bu ayar yok mu? Bir bilgisayardan bir kez izin verin: %1$s</string>
+    <string name="pair_channel">Bağlanma</string>
+    <string name="pair_notify">Bilgisayarınızdaki VI Translator\'ın bu televizyonu bağlaması bekleniyor</string>
+    <string name="notify_channel">Katman</string>
+    <string name="notify_text">Çeviriler televizyon görüntüsünün üzerinde gösteriliyor</string>
+    <string name="webview_old">Bu televizyonun web motoru çevirileri çizmek için çok eski. \"Android System WebView\"ı Google Play\'den güncelleyin.</string>
+</resources>

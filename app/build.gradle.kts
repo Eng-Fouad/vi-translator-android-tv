@@ -8,8 +8,8 @@ android {
 
     defaultConfig {
         applicationId = "app.vitranslator.tv"
-        // Android 8: overlays over other apps (TYPE_APPLICATION_OVERLAY); every Google TV has it
-        minSdk = 26
+        // Android 5.0: the first Android TV (the older ways of drawing over other apps are in Compat)
+        minSdk = 21
         targetSdk = 36
         versionCode = 1
         versionName = "1.0.0"

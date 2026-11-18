@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">Introdu acest cod în VI Translator pe PC</string>
+    <string name="where_on_pc">Pe PC: Sursă › Afișează pe un televizor › Conectează un televizor</string>
+    <string name="this_tv">Acest televizor: %1$s</string>
+    <string name="connected_to">Conectat la %1$s</string>
+    <string name="looking_for">Se caută %1$s…</string>
+    <string name="overlays_off">Conectat la %1$s, dar suprapunerile lui sunt oprite</string>
+    <string name="show_on">Afișează pe: %1$s</string>
+    <string name="all_inputs">Toate intrările</string>
+    <string name="disconnect">Deconectează</string>
+    <string name="permission_needed">Ca să apară peste joc, aplicația are nevoie de „Afișare peste alte aplicații”.</string>
+    <string name="allow">Permite</string>
+    <string name="adb_hint">Televizorul nu are această setare? Permite-o o dată de pe un computer: %1$s</string>
+    <string name="pair_channel">Conectare</string>
+    <string name="pair_notify">Se așteaptă ca VI Translator de pe PC să conecteze acest televizor</string>
+    <string name="notify_channel">Suprapunere</string>
+    <string name="notify_text">Traducerile sunt afișate peste imaginea televizorului</string>
+    <string name="webview_old">Motorul web al acestui televizor este prea vechi pentru a desena traducerile. Actualizează „Android System WebView” din Google Play.</string>
+</resources>

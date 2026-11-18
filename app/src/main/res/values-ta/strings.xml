@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">உங்கள் கணினியில் VI Translator-இல் இந்தக் குறியீட்டை உள்ளிடவும்</string>
+    <string name="where_on_pc">கணினியில்: மூலம் › டிவியில் காட்டு › டிவியை இணை</string>
+    <string name="this_tv">இந்த டிவி: %1$s</string>
+    <string name="connected_to">%1$s உடன் இணைந்தது</string>
+    <string name="looking_for">%1$s தேடப்படுகிறது…</string>
+    <string name="overlays_off">%1$s உடன் இணைந்தது, ஆனால் அதன் மேலடுக்குகள் முடக்கப்பட்டுள்ளன</string>
+    <string name="show_on">காட்டு: %1$s</string>
+    <string name="all_inputs">அனைத்து உள்ளீடுகள்</string>
+    <string name="disconnect">துண்டி</string>
+    <string name="permission_needed">விளையாட்டின் மேல் காட்ட, இந்தச் செயலிக்கு \"பிற செயலிகளின் மேல் காட்டு\" அனுமதி தேவை.</string>
+    <string name="allow">அனுமதி</string>
+    <string name="adb_hint">டிவியில் இந்த அமைப்பு இல்லையா? ஒரு கணினியிலிருந்து ஒருமுறை அனுமதிக்கவும்: %1$s</string>
+    <string name="pair_channel">இணைப்பு</string>
+    <string name="pair_notify">உங்கள் கணினியின் VI Translator இந்த டிவியை இணைக்கக் காத்திருக்கிறது</string>
+    <string name="notify_channel">மேலடுக்கு</string>
+    <string name="notify_text">டிவி படத்தின் மேல் மொழிபெயர்ப்புகள் காட்டப்படுகின்றன</string>
+    <string name="webview_old">இந்த டிவியின் வலை இயந்திரம் மொழிபெயர்ப்புகளை வரைய மிகவும் பழையது. Google Play-இலிருந்து \"Android System WebView\"-ஐப் புதுப்பிக்கவும்.</string>
+</resources>

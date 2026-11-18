@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">Voer deze code in bij VI Translator op je pc</string>
+    <string name="where_on_pc">Op de pc: Bron › Op een tv tonen › Tv koppelen</string>
+    <string name="this_tv">Deze tv: %1$s</string>
+    <string name="connected_to">Gekoppeld aan %1$s</string>
+    <string name="looking_for">%1$s zoeken…</string>
+    <string name="overlays_off">Gekoppeld aan %1$s, maar de overlays staan uit</string>
+    <string name="show_on">Tonen op: %1$s</string>
+    <string name="all_inputs">Alle ingangen</string>
+    <string name="disconnect">Ontkoppelen</string>
+    <string name="permission_needed">Om over het spel te tekenen, heeft deze app \'Weergeven vóór andere apps\' nodig.</string>
+    <string name="allow">Toestaan</string>
+    <string name="adb_hint">Heeft de tv deze instelling niet? Sta het één keer toe vanaf een computer: %1$s</string>
+    <string name="pair_channel">Koppelen</string>
+    <string name="pair_notify">Wachten tot VI Translator op je pc deze tv koppelt</string>
+    <string name="notify_channel">Overlay</string>
+    <string name="notify_text">De vertalingen worden over het tv-beeld getoond</string>
+    <string name="webview_old">De webengine van deze tv is te oud om de vertalingen te tekenen. Werk \'Android System WebView\' bij via Google Play.</string>
+</resources>

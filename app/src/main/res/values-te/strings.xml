@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">మీ PCలో VI Translatorలో ఈ కోడ్‌ను నమోదు చేయండి</string>
+    <string name="where_on_pc">PCలో: మూలం › టీవీలో చూపించు › టీవీని కనెక్ట్ చేయండి</string>
+    <string name="this_tv">ఈ టీవీ: %1$s</string>
+    <string name="connected_to">%1$sకి కనెక్ట్ అయింది</string>
+    <string name="looking_for">%1$s కోసం వెతుకుతోంది…</string>
+    <string name="overlays_off">%1$sకి కనెక్ట్ అయింది, కానీ దాని ఓవర్‌లేలు ఆఫ్‌లో ఉన్నాయి</string>
+    <string name="show_on">చూపించు: %1$s</string>
+    <string name="all_inputs">అన్ని ఇన్‌పుట్‌లు</string>
+    <string name="disconnect">డిస్‌కనెక్ట్ చేయి</string>
+    <string name="permission_needed">గేమ్ పైన చూపించడానికి ఈ యాప్‌కు \"ఇతర యాప్‌ల పైన చూపించు\" అనుమతి కావాలి.</string>
+    <string name="allow">అనుమతించు</string>
+    <string name="adb_hint">టీవీలో ఈ సెట్టింగ్ లేదా? కంప్యూటర్ నుండి ఒకసారి అనుమతించండి: %1$s</string>
+    <string name="pair_channel">కనెక్ట్ చేయడం</string>
+    <string name="pair_notify">మీ PCలోని VI Translator ఈ టీవీని కనెక్ట్ చేసే వరకు వేచి ఉంది</string>
+    <string name="notify_channel">ఓవర్‌లే</string>
+    <string name="notify_text">టీవీ చిత్రం పైన అనువాదాలను చూపిస్తోంది</string>
+    <string name="webview_old">ఈ టీవీ వెబ్ ఇంజిన్ అనువాదాలను చూపడానికి చాలా పాతది. Google Play నుండి \"Android System WebView\"ని అప్‌డేట్ చేయండి.</string>
+</resources>

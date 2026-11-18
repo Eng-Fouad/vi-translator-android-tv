@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">Nhập mã này trong VI Translator trên PC</string>
+    <string name="where_on_pc">Trên PC: Nguồn › Hiển thị trên TV › Kết nối TV</string>
+    <string name="this_tv">TV này: %1$s</string>
+    <string name="connected_to">Đã kết nối với %1$s</string>
+    <string name="looking_for">Đang tìm %1$s…</string>
+    <string name="overlays_off">Đã kết nối với %1$s, nhưng lớp phủ của nó đang tắt</string>
+    <string name="show_on">Hiển thị trên: %1$s</string>
+    <string name="all_inputs">Mọi đầu vào</string>
+    <string name="disconnect">Ngắt kết nối</string>
+    <string name="permission_needed">Để hiển thị trên trò chơi, ứng dụng cần quyền \"Hiển thị trên các ứng dụng khác\".</string>
+    <string name="allow">Cho phép</string>
+    <string name="adb_hint">TV không có cài đặt này? Hãy cho phép một lần từ máy tính: %1$s</string>
+    <string name="pair_channel">Kết nối</string>
+    <string name="pair_notify">Đang chờ VI Translator trên PC kết nối TV này</string>
+    <string name="notify_channel">Lớp phủ</string>
+    <string name="notify_text">Đang hiển thị bản dịch trên hình ảnh TV</string>
+    <string name="webview_old">Công cụ web của TV này quá cũ để vẽ bản dịch. Hãy cập nhật \"Android System WebView\" từ Google Play.</string>
+</resources>

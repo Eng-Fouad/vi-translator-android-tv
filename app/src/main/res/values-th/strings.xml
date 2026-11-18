@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">ใส่รหัสนี้ใน VI Translator บนพีซีของคุณ</string>
+    <string name="where_on_pc">บนพีซี: แหล่งภาพ › แสดงบนทีวี › เชื่อมต่อทีวี</string>
+    <string name="this_tv">ทีวีเครื่องนี้: %1$s</string>
+    <string name="connected_to">เชื่อมต่อกับ %1$s แล้ว</string>
+    <string name="looking_for">กำลังค้นหา %1$s…</string>
+    <string name="overlays_off">เชื่อมต่อกับ %1$s แล้ว แต่โอเวอร์เลย์ของมันปิดอยู่</string>
+    <string name="show_on">แสดงบน: %1$s</string>
+    <string name="all_inputs">ทุกอินพุต</string>
+    <string name="disconnect">ยกเลิกการเชื่อมต่อ</string>
+    <string name="permission_needed">หากต้องการแสดงบนเกม แอปนี้ต้องได้รับสิทธิ์ \"แสดงทับแอปอื่น\"</string>
+    <string name="allow">อนุญาต</string>
+    <string name="adb_hint">ทีวีไม่มีการตั้งค่านี้ใช่ไหม อนุญาตครั้งเดียวจากคอมพิวเตอร์: %1$s</string>
+    <string name="pair_channel">การเชื่อมต่อ</string>
+    <string name="pair_notify">กำลังรอให้ VI Translator บนพีซีของคุณเชื่อมต่อทีวีเครื่องนี้</string>
+    <string name="notify_channel">โอเวอร์เลย์</string>
+    <string name="notify_text">กำลังแสดงคำแปลบนภาพทีวี</string>
+    <string name="webview_old">เว็บเอนจินของทีวีเครื่องนี้เก่าเกินกว่าจะแสดงคำแปลได้ อัปเดต \"Android System WebView\" จาก Google Play</string>
+</resources>

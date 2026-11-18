@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">Masukkan kod ini dalam VI Translator pada PC anda</string>
+    <string name="where_on_pc">Pada PC: Sumber › Tunjukkan pada TV › Sambungkan TV</string>
+    <string name="this_tv">TV ini: %1$s</string>
+    <string name="connected_to">Disambungkan ke %1$s</string>
+    <string name="looking_for">Mencari %1$s…</string>
+    <string name="overlays_off">Disambungkan ke %1$s, tetapi tindanannya dimatikan</string>
+    <string name="show_on">Tunjukkan pada: %1$s</string>
+    <string name="all_inputs">Semua input</string>
+    <string name="disconnect">Putuskan sambungan</string>
+    <string name="permission_needed">Untuk dipaparkan di atas permainan, aplikasi ini memerlukan \"Paparkan di atas apl lain\".</string>
+    <string name="allow">Benarkan</string>
+    <string name="adb_hint">TV tiada tetapan ini? Benarkannya sekali daripada komputer: %1$s</string>
+    <string name="pair_channel">Menyambung</string>
+    <string name="pair_notify">Menunggu VI Translator pada PC anda menyambungkan TV ini</string>
+    <string name="notify_channel">Tindanan</string>
+    <string name="notify_text">Menunjukkan terjemahan di atas gambar TV</string>
+    <string name="webview_old">Enjin web TV ini terlalu lama untuk melukis terjemahan. Kemas kini \"Android System WebView\" daripada Google Play.</string>
+</resources>

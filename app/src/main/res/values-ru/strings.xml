@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">Введите этот код в VI Translator на ПК</string>
+    <string name="where_on_pc">На ПК: Источник › Показать на телевизоре › Подключить телевизор</string>
+    <string name="this_tv">Этот телевизор: %1$s</string>
+    <string name="connected_to">Подключено к %1$s</string>
+    <string name="looking_for">Поиск %1$s…</string>
+    <string name="overlays_off">Подключено к %1$s, но его наложения выключены</string>
+    <string name="show_on">Показывать на: %1$s</string>
+    <string name="all_inputs">Всех входах</string>
+    <string name="disconnect">Отключить</string>
+    <string name="permission_needed">Чтобы показывать поверх игры, приложению нужно разрешение «Поверх других приложений».</string>
+    <string name="allow">Разрешить</string>
+    <string name="adb_hint">На телевизоре нет такой настройки? Разрешите один раз с компьютера: %1$s</string>
+    <string name="pair_channel">Подключение</string>
+    <string name="pair_notify">Ожидание, пока VI Translator на ПК подключит этот телевизор</string>
+    <string name="notify_channel">Наложение</string>
+    <string name="notify_text">Переводы показываются поверх изображения телевизора</string>
+    <string name="webview_old">Веб-движок этого телевизора слишком старый, чтобы рисовать переводы. Обновите «Android System WebView» в Google Play.</string>
+</resources>

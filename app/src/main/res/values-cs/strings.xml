@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_code">Zadejte tento kód ve VI Translator na počítači</string>
+    <string name="where_on_pc">V počítači: Zdroj › Zobrazit na televizi › Připojit televizi</string>
+    <string name="this_tv">Tato televize: %1$s</string>
+    <string name="connected_to">Připojeno k %1$s</string>
+    <string name="looking_for">Hledá se %1$s…</string>
+    <string name="overlays_off">Připojeno k %1$s, ale jeho překryvy jsou vypnuté</string>
+    <string name="show_on">Zobrazit na: %1$s</string>
+    <string name="all_inputs">Všechny vstupy</string>
+    <string name="disconnect">Odpojit</string>
+    <string name="permission_needed">K zobrazení přes hru potřebuje aplikace oprávnění „Zobrazení přes jiné aplikace“.</string>
+    <string name="allow">Povolit</string>
+    <string name="adb_hint">Televize toto nastavení nemá? Povolte ho jednou z počítače: %1$s</string>
+    <string name="pair_channel">Připojování</string>
+    <string name="pair_notify">Čeká se, až VI Translator v počítači připojí tuto televizi</string>
+    <string name="notify_channel">Překryv</string>
+    <string name="notify_text">Překlady se zobrazují přes obraz televize</string>
+    <string name="webview_old">Webový modul této televize je na vykreslení překladů příliš starý. Aktualizujte „Android System WebView“ z Google Play.</string>
+</resources>
