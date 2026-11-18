@@ -17,4 +17,6 @@
     <string name="notify_channel">Suprapunere</string>
     <string name="notify_text">Traducerile sunt afișate peste imaginea televizorului</string>
     <string name="webview_old">Motorul web al acestui televizor este prea vechi pentru a desena traducerile. Actualizează „Android System WebView” din Google Play.</string>
+    <string name="language">Limba aplicației</string>
+    <string name="language_tv">Limba televizorului</string>
 </resources>

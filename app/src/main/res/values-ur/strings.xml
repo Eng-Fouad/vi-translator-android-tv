@@ -17,4 +17,6 @@
     <string name="notify_channel">اوورلے</string>
     <string name="notify_text">ٹی وی کی تصویر کے اوپر ترجمے دکھائے جا رہے ہیں</string>
     <string name="webview_old">اس ٹی وی کا ویب انجن ترجمے دکھانے کے لیے بہت پرانا ہے۔ Google Play سے \"Android System WebView\" اپ ڈیٹ کریں۔</string>
+    <string name="language">ایپ کی زبان</string>
+    <string name="language_tv">ٹی وی کی زبان</string>
 </resources>

@@ -17,4 +17,6 @@
     <string name="notify_channel">Katman</string>
     <string name="notify_text">Çeviriler televizyon görüntüsünün üzerinde gösteriliyor</string>
     <string name="webview_old">Bu televizyonun web motoru çevirileri çizmek için çok eski. \"Android System WebView\"ı Google Play\'den güncelleyin.</string>
+    <string name="language">Uygulama dili</string>
+    <string name="language_tv">Televizyonun dili</string>
 </resources>

@@ -17,4 +17,6 @@
     <string name="notify_channel">ఓవర్‌లే</string>
     <string name="notify_text">టీవీ చిత్రం పైన అనువాదాలను చూపిస్తోంది</string>
     <string name="webview_old">ఈ టీవీ వెబ్ ఇంజిన్ అనువాదాలను చూపడానికి చాలా పాతది. Google Play నుండి \"Android System WebView\"ని అప్‌డేట్ చేయండి.</string>
+    <string name="language">యాప్ భాష</string>
+    <string name="language_tv">టీవీ భాష</string>
 </resources>

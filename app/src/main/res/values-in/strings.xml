@@ -17,4 +17,6 @@
     <string name="notify_channel">Overlay</string>
     <string name="notify_text">Menampilkan terjemahan di atas gambar TV</string>
     <string name="webview_old">Mesin web TV ini terlalu lama untuk menggambar terjemahan. Perbarui \"Android System WebView\" dari Google Play.</string>
+    <string name="language">Bahasa aplikasi</string>
+    <string name="language_tv">Bahasa TV</string>
 </resources>

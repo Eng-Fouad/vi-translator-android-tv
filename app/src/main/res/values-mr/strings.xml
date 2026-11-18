@@ -17,4 +17,6 @@
     <string name="notify_channel">ओव्हरले</string>
     <string name="notify_text">टीव्हीच्या चित्रावर भाषांतरे दाखवत आहे</string>
     <string name="webview_old">या टीव्हीचे वेब इंजिन भाषांतरे दाखवण्यासाठी खूप जुने आहे. Google Play वरून \"Android System WebView\" अपडेट करा.</string>
+    <string name="language">ॲपची भाषा</string>
+    <string name="language_tv">टीव्हीची भाषा</string>
 </resources>

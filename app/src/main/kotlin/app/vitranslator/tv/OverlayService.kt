@@ -44,6 +44,11 @@ class OverlayService : Service() {
         windows = getSystemService(WINDOW_SERVICE) as WindowManager
     }
 
+    // (its notification in the app's language)
+    override fun attachBaseContext(base: Context) {
+        super.attachBaseContext(Lang.wrap(base))
+    }
+
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         // (in the foreground at once, as Android asks of a service started this way)
         val open = PendingIntent.getActivity(this, 0, Intent(this, MainActivity::class.java), Compat.immutable)

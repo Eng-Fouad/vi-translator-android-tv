@@ -17,4 +17,6 @@
     <string name="notify_channel">Overlay</string>
     <string name="notify_text">Ipinapakita ang mga salin sa ibabaw ng larawan ng TV</string>
     <string name="webview_old">Masyadong luma ang web engine ng TV na ito para iguhit ang mga salin. I-update ang \"Android System WebView\" mula sa Google Play.</string>
+    <string name="language">Wika ng app</string>
+    <string name="language_tv">Wika ng TV</string>
 </resources>

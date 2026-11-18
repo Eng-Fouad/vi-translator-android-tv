@@ -17,4 +17,6 @@
     <string name="notify_channel">疊加層</string>
     <string name="notify_text">正在電視畫面上方顯示翻譯</string>
     <string name="webview_old">這台電視的網頁引擎太舊，無法繪製翻譯。請在 Google Play 中更新「Android System WebView」。</string>
+    <string name="language">介面語言</string>
+    <string name="language_tv">電視語言</string>
 </resources>

@@ -17,4 +17,6 @@
     <string name="notify_channel">Επικάλυψη</string>
     <string name="notify_text">Οι μεταφράσεις εμφανίζονται πάνω από την εικόνα της τηλεόρασης</string>
     <string name="webview_old">Η μηχανή ιστού αυτής της τηλεόρασης είναι πολύ παλιά για να σχεδιάσει τις μεταφράσεις. Ενημερώστε το «Android System WebView» από το Google Play.</string>
+    <string name="language">Γλώσσα εφαρμογής</string>
+    <string name="language_tv">Γλώσσα τηλεόρασης</string>
 </resources>

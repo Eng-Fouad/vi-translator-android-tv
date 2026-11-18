@@ -17,4 +17,6 @@
     <string name="notify_channel">Наложение</string>
     <string name="notify_text">Переводы показываются поверх изображения телевизора</string>
     <string name="webview_old">Веб-движок этого телевизора слишком старый, чтобы рисовать переводы. Обновите «Android System WebView» в Google Play.</string>
+    <string name="language">Язык приложения</string>
+    <string name="language_tv">Язык телевизора</string>
 </resources>

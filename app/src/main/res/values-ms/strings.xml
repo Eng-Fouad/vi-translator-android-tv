@@ -17,4 +17,6 @@
     <string name="notify_channel">Tindanan</string>
     <string name="notify_text">Menunjukkan terjemahan di atas gambar TV</string>
     <string name="webview_old">Enjin web TV ini terlalu lama untuk melukis terjemahan. Kemas kini \"Android System WebView\" daripada Google Play.</string>
+    <string name="language">Bahasa aplikasi</string>
+    <string name="language_tv">Bahasa TV</string>
 </resources>

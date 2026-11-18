@@ -17,4 +17,6 @@
     <string name="notify_channel">همپوشانی</string>
     <string name="notify_text">ترجمه‌ها روی تصویر تلویزیون نمایش داده می‌شوند</string>
     <string name="webview_old">موتور وب این تلویزیون برای نمایش ترجمه‌ها خیلی قدیمی است. «Android System WebView» را از Google Play به‌روز کنید.</string>
+    <string name="language">زبان برنامه</string>
+    <string name="language_tv">زبان تلویزیون</string>
 </resources>

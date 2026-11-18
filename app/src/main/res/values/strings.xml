@@ -18,4 +18,6 @@
     <string name="notify_channel">Overlay</string>
     <string name="notify_text">Showing the translations over the TV picture</string>
     <string name="webview_old">This TV\'s web engine is too old to draw the translations. Update \"Android System WebView\" from Google Play.</string>
+    <string name="language">App language</string>
+    <string name="language_tv">TV language</string>
 </resources>

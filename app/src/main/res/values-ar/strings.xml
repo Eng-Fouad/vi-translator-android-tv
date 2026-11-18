@@ -17,4 +17,6 @@
     <string name="notify_channel">الطبقة</string>
     <string name="notify_text">تُعرض الترجمات فوق صورة التلفاز</string>
     <string name="webview_old">محرك الويب في هذا التلفاز أقدم من أن يرسم الترجمات. حدّث «Android System WebView» من Google Play.</string>
+    <string name="language">لغة التطبيق</string>
+    <string name="language_tv">لغة التلفاز</string>
 </resources>

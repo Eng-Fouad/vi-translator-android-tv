@@ -17,4 +17,6 @@
     <string name="notify_channel">Překryv</string>
     <string name="notify_text">Překlady se zobrazují přes obraz televize</string>
     <string name="webview_old">Webový modul této televize je na vykreslení překladů příliš starý. Aktualizujte „Android System WebView“ z Google Play.</string>
+    <string name="language">Jazyk aplikace</string>
+    <string name="language_tv">Jazyk televize</string>
 </resources>

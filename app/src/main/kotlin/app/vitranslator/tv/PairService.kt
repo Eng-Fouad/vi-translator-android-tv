@@ -19,6 +19,11 @@ class PairService : Service(), PairServer.Listener {
     private var server: PairServer? = null
     private val end = Runnable { stopSelf() }
 
+    // (its notification in the app's language)
+    override fun attachBaseContext(base: Context) {
+        super.attachBaseContext(Lang.wrap(base))
+    }
+
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         val open = PendingIntent.getActivity(this, 0, Intent(this, MainActivity::class.java), Compat.immutable)
         Compat.foreground(this, 2, CHANNEL, getString(R.string.pair_channel), getString(R.string.app_name), getString(R.string.pair_notify), open)

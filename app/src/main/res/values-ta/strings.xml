@@ -17,4 +17,6 @@
     <string name="notify_channel">மேலடுக்கு</string>
     <string name="notify_text">டிவி படத்தின் மேல் மொழிபெயர்ப்புகள் காட்டப்படுகின்றன</string>
     <string name="webview_old">இந்த டிவியின் வலை இயந்திரம் மொழிபெயர்ப்புகளை வரைய மிகவும் பழையது. Google Play-இலிருந்து \"Android System WebView\"-ஐப் புதுப்பிக்கவும்.</string>
+    <string name="language">செயலியின் மொழி</string>
+    <string name="language_tv">டிவியின் மொழி</string>
 </resources>

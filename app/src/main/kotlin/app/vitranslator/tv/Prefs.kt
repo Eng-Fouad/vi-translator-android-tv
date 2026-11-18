@@ -42,6 +42,11 @@ class Prefs(c: Context) {
         get() = p.getString("show_on", "") ?: ""
         set(deviceId) = p.edit().putString("show_on", deviceId).apply()
 
+    /** The app's language (a tag from Lang.ALL), or "" for the TV's own. */
+    var language: String
+        get() = p.getString("language", "") ?: ""
+        set(tag) = p.edit().putString("language", tag).apply()
+
     companion object {
         private val IPV4 = Regex("(25[0-5]|2[0-4]\\d|1?\\d?\\d)(\\.(25[0-5]|2[0-4]\\d|1?\\d?\\d)){3}")
 

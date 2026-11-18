@@ -17,4 +17,6 @@
     <string name="notify_channel">Tabaka</string>
     <string name="notify_text">Inaonyesha tafsiri juu ya picha ya TV</string>
     <string name="webview_old">Injini ya wavuti ya TV hii ni ya zamani mno kuchora tafsiri. Sasisha \"Android System WebView\" kutoka Google Play.</string>
+    <string name="language">Lugha ya programu</string>
+    <string name="language_tv">Lugha ya TV</string>
 </resources>

@@ -17,4 +17,6 @@
     <string name="notify_channel">오버레이</string>
     <string name="notify_text">TV 화면 위에 번역을 표시하는 중</string>
     <string name="webview_old">이 TV의 웹 엔진이 너무 오래되어 번역을 표시할 수 없습니다. Google Play에서 \'Android System WebView\'를 업데이트하세요.</string>
+    <string name="language">앱 언어</string>
+    <string name="language_tv">TV 언어</string>
 </resources>

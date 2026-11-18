@@ -17,4 +17,6 @@
     <string name="notify_channel">Superposición</string>
     <string name="notify_text">Mostrando las traducciones sobre la imagen de la TV</string>
     <string name="webview_old">El motor web de esta TV es demasiado antiguo para dibujar las traducciones. Actualiza «Android System WebView» desde Google Play.</string>
+    <string name="language">Idioma de la app</string>
+    <string name="language_tv">Idioma de la TV</string>
 </resources>

@@ -17,4 +17,6 @@
     <string name="notify_channel">Overlay</string>
     <string name="notify_text">De vertalingen worden over het tv-beeld getoond</string>
     <string name="webview_old">De webengine van deze tv is te oud om de vertalingen te tekenen. Werk \'Android System WebView\' bij via Google Play.</string>
+    <string name="language">App-taal</string>
+    <string name="language_tv">Taal van de tv</string>
 </resources>

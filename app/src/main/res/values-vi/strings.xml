@@ -17,4 +17,6 @@
     <string name="notify_channel">Lớp phủ</string>
     <string name="notify_text">Đang hiển thị bản dịch trên hình ảnh TV</string>
     <string name="webview_old">Công cụ web của TV này quá cũ để vẽ bản dịch. Hãy cập nhật \"Android System WebView\" từ Google Play.</string>
+    <string name="language">Ngôn ngữ ứng dụng</string>
+    <string name="language_tv">Ngôn ngữ của TV</string>
 </resources>

@@ -1,7 +1,9 @@
 package app.vitranslator.tv
 
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.ActivityNotFoundException
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -34,6 +36,7 @@ class MainActivity : Activity() {
     private lateinit var disconnect: Button
     private lateinit var allow: Button
     private lateinit var oldWebView: TextView
+    private lateinit var language: Button
     private var inputs: List<Inputs.Input> = emptyList()
     private var resumed = false
 
@@ -42,6 +45,10 @@ class MainActivity : Activity() {
             refresh()
             if (resumed) main.postDelayed(this, STATUS_MS)
         }
+    }
+
+    override fun attachBaseContext(base: Context) {
+        super.attachBaseContext(Lang.wrap(base))
     }
 
     override fun onCreate(saved: Bundle?) {
@@ -92,7 +99,7 @@ class MainActivity : Activity() {
             setPadding(dp(12), dp(8), dp(12), dp(8))
             clipToPadding = false
         }
-        showOn = Look.button(this, "").apply { setOnClickListener { nextShowOn() } }
+        showOn = Look.button(this, "").apply { setOnClickListener { pickShowOn() } }
         disconnect = Look.button(this, getString(R.string.disconnect)).apply { setOnClickListener { disconnect() } }
         // (side gaps only: a top margin on a button in a centred row is counted twice and pushes it down)
         buttons.addView(showOn, wrap().apply { setMargins(dp(10), 0, dp(10), 0) })
@@ -120,6 +127,26 @@ class MainActivity : Activity() {
             visibility = if (v in 1 until Compat.MIN_WEBVIEW) View.VISIBLE else View.GONE
         }
         col.addView(oldWebView, wrap().apply { topMargin = dp(30) })
+
+        // the app's language: the TV's own, or one of the desktop app's. Compact, in the top corner
+        // (out of the way, on both screens): a globe and the language in use.
+        language = Look.button(this, "").apply {
+            setOnClickListener { pickLanguage() }
+            text = GLOBE + "  " + (Lang.chosenName(this@MainActivity) ?: getString(R.string.language_tv))
+            contentDescription = getString(R.string.language)
+            setTextSize(android.util.TypedValue.COMPLEX_UNIT_SP, 14f)
+            minHeight = dp(44)
+            minimumHeight = dp(44)
+            setPadding(dp(20), 0, dp(20), 0)
+        }
+        root.addView(FrameLayout(this).apply {
+            setPadding(dp(12), dp(8), dp(12), dp(8))
+            clipToPadding = false
+            addView(language)
+        }, FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.END).apply {
+            topMargin = dp(20)
+            marginEnd = dp(28)
+        })
 
         setContentView(root)
     }
@@ -196,14 +223,48 @@ class MainActivity : Activity() {
         render()
     }
 
-    /** Show on: every input, then each HDMI input in turn. */
-    private fun nextShowOn() {
-        val i = inputs.indexOfFirst { it.deviceId == prefs.showOn }
-        prefs.showOn = inputs.getOrNull(i + 1)?.deviceId ?: ""
-        showOn.text = getString(R.string.show_on, showOnLabel())
+    /** Show on: a list like the language one, every input first, then each HDMI input by its name on the TV. */
+    private fun pickShowOn() {
+        val names = arrayOf(getString(R.string.all_inputs)) + inputs.map { it.label }
+        val checked = inputs.indexOfFirst { it.deviceId == prefs.showOn } + 1
+        // (the title is the button's "Show on: …" without its value: every language has "label: value")
+        val title = getString(R.string.show_on, "").trimEnd(' ', ':', '：')
+        AlertDialog.Builder(this, android.R.style.Theme_Material_Dialog_Alert)
+            .setTitle(title)
+            .setSingleChoiceItems(names, checked) { d, which ->
+                d.dismiss()
+                prefs.showOn = if (which == 0) "" else inputs[which - 1].deviceId
+                showOn.text = getString(R.string.show_on, showOnLabel())
+            }
+            .show()
     }
 
     private fun showOnLabel(): String = inputs.firstOrNull { it.deviceId == prefs.showOn }?.label ?: getString(R.string.all_inputs)
+
+    /** The language list: the TV's own first, then each language by its own name. */
+    private fun pickLanguage() {
+        val names = arrayOf(getString(R.string.language_tv)) + Lang.ALL.map { it.name }
+        val now = prefs.language
+        val checked = if (now.isEmpty()) 0 else Lang.ALL.indexOfFirst { it.tag == now } + 1
+        AlertDialog.Builder(this, android.R.style.Theme_Material_Dialog_Alert)
+            .setTitle(R.string.language)
+            .setSingleChoiceItems(names, checked) { d, which ->
+                d.dismiss()
+                val tag = if (which == 0) "" else Lang.ALL[which - 1].tag
+                if (tag == prefs.language) return@setSingleChoiceItems
+                prefs.language = tag
+                // (back to the TV's own: the system's locale, which the app's default had been changed from)
+                @Suppress("DEPRECATION")
+                if (tag.isEmpty()) java.util.Locale.setDefault(android.content.res.Resources.getSystem().configuration.locale)
+                // the overlay's notification in the new language: its service made again
+                if (prefs.connected && OverlayService.running) {
+                    OverlayService.stop(this)
+                    OverlayService.start(this)
+                }
+                recreate()
+            }
+            .show()
+    }
 
     private fun askPermission() {
         // (before Android 6.0 the permission comes with the install: this is never asked there)
@@ -228,6 +289,9 @@ class MainActivity : Activity() {
 
     companion object {
         private const val STATUS_MS = 1500L
+
+        /** 🌐 */
+        private const val GLOBE = "🌐"
 
         private fun wrap() = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT)
 
