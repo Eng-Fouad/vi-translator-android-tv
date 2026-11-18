@@ -27,7 +27,7 @@ The overlay never takes the remote: it keeps working the TV and the game under i
 ## Setup
 
 1. **Install the app on the TV:** install *Downloader* from Google Play on the TV, open it and enter
-   the code **5773547**: it downloads the APK, then press *Install* (allow Downloader to install apps
+   the code **3156727**: it downloads the APK, then press *Install* (allow Downloader to install apps
    if the TV asks). Or download the APK from the
    [latest release](https://github.com/vi-translator/vi-translator-android-tv/releases/latest) and
    install it with `adb install`.
