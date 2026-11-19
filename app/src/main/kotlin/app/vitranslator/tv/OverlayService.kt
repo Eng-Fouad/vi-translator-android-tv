@@ -81,6 +81,9 @@ class OverlayService : Service() {
             val w = WebView(this)
             w.setBackgroundColor(Color.TRANSPARENT)
             w.isFocusable = false
+            // (where the window takes touches, the page never reacts to them)
+            @SuppressLint("ClickableViewAccessibility")
+            w.setOnTouchListener { _, _ -> true }
             w.settings.apply {
                 javaScriptEnabled = true
                 domStorageEnabled = true
@@ -117,11 +120,7 @@ class OverlayService : Service() {
                 WindowManager.LayoutParams.MATCH_PARENT,
                 WindowManager.LayoutParams.MATCH_PARENT,
                 Compat.overlayWindowType,
-                WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or
-                    WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE or
-                    WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN or
-                    WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS or
-                    WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
+                Compat.overlayWindowFlags,
                 PixelFormat.TRANSLUCENT,
             )
             windows.addView(w, lp)
