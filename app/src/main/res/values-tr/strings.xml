@@ -21,4 +21,8 @@
     <string name="webview_old">Bu televizyonun web motoru çevirileri çizmek için çok eski. \"Android System WebView\"ı Google Play\'den güncelleyin.</string>
     <string name="language">Uygulama dili</string>
     <string name="language_tv">Televizyonun dili</string>
+    <string name="update_available">%1$s sürümüne güncelle</string>
+    <string name="update">Güncelle</string>
+    <string name="update_downloading">Güncelleme indiriliyor…</string>
+    <string name="update_failed">Güncellemeyi yeniden dene</string>
 </resources>

@@ -21,4 +21,8 @@
     <string name="webview_old">محرك الويب في هذا التلفاز أقدم من أن يرسم الترجمات. حدّث «Android System WebView» من Google Play.</string>
     <string name="language">لغة التطبيق</string>
     <string name="language_tv">لغة التلفاز</string>
+    <string name="update_available">تحديث إلى %1$s</string>
+    <string name="update">تحديث</string>
+    <string name="update_downloading">جارٍ تنزيل التحديث…</string>
+    <string name="update_failed">أعد محاولة التحديث</string>
 </resources>

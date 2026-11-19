@@ -21,4 +21,8 @@
     <string name="webview_old">Masyadong luma ang web engine ng TV na ito para iguhit ang mga salin. I-update ang \"Android System WebView\" mula sa Google Play.</string>
     <string name="language">Wika ng app</string>
     <string name="language_tv">Wika ng TV</string>
+    <string name="update_available">I-update sa %1$s</string>
+    <string name="update">I-update</string>
+    <string name="update_downloading">Dina-download ang update…</string>
+    <string name="update_failed">Subukan ulit ang update</string>
 </resources>

@@ -37,6 +37,7 @@ class MainActivity : Activity() {
     private lateinit var allow: Button
     private lateinit var oldWebView: TextView
     private lateinit var language: Button
+    private lateinit var update: Button
     private var inputs: List<Inputs.Input> = emptyList()
     private var resumed = false
     /** Whether "Display over other apps" was allowed at the last look (null: not looked yet). */
@@ -130,6 +131,7 @@ class MainActivity : Activity() {
         }
         col.addView(oldWebView, wrap().apply { topMargin = dp(30) })
 
+
         // the app's language: the TV's own, or one of the desktop app's. Compact, in the top corner
         // (out of the way, on both screens): a globe and the language in use.
         language = Look.button(this, "").apply {
@@ -150,6 +152,24 @@ class MainActivity : Activity() {
             marginEnd = dp(28)
         })
 
+        // a newer version on the app's releases page (Updater): one press, in the other top corner
+        update = Look.button(this, "").apply {
+            setOnClickListener { Updater.available?.let { r -> Updater.install(this@MainActivity, r) { main.post { showUpdate() } } } }
+            setTextSize(android.util.TypedValue.COMPLEX_UNIT_SP, 14f)
+            minHeight = dp(44)
+            minimumHeight = dp(44)
+            setPadding(dp(20), 0, dp(20), 0)
+            visibility = View.GONE
+        }
+        root.addView(FrameLayout(this).apply {
+            setPadding(dp(12), dp(8), dp(12), dp(8))
+            clipToPadding = false
+            addView(update)
+        }, FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.START).apply {
+            topMargin = dp(20)
+            marginStart = dp(28)
+        })
+
         setContentView(root)
     }
 
@@ -161,6 +181,21 @@ class MainActivity : Activity() {
         main.post(tick)
         // (the code listener starts a moment after: the code shows as soon as it's there)
         main.postDelayed({ refresh() }, 250)
+        showUpdate()
+        Updater.check(this) { main.post { showUpdate() } }
+    }
+
+    /** The update card: shown while a newer version is there, with how the update is going. */
+    private fun showUpdate() {
+        val r = Updater.available
+        update.visibility = if (r == null) View.GONE else View.VISIBLE
+        if (r == null) return
+        update.text = UP + "  " + when (Updater.state) {
+            Updater.State.DOWNLOADING, Updater.State.INSTALLING -> getString(R.string.update_downloading)
+            Updater.State.FAILED -> getString(R.string.update_failed)
+            else -> getString(R.string.update_available, r.version)
+        }
+        update.isEnabled = Updater.state != Updater.State.DOWNLOADING && Updater.state != Updater.State.INSTALLING
     }
 
     override fun onPause() {
@@ -311,6 +346,7 @@ class MainActivity : Activity() {
         private const val STATUS_MS = 1500L
 
         /** 🌐 */
+        private const val UP = "⬆"
         private const val GLOBE = "🌐"
 
         private fun wrap() = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT)

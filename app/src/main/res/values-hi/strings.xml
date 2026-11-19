@@ -21,4 +21,8 @@
     <string name="webview_old">इस टीवी का वेब इंजन अनुवाद दिखाने के लिए बहुत पुराना है। Google Play से \"Android System WebView\" अपडेट करें।</string>
     <string name="language">ऐप की भाषा</string>
     <string name="language_tv">टीवी की भाषा</string>
+    <string name="update_available">%1$s पर अपडेट करें</string>
+    <string name="update">अपडेट करें</string>
+    <string name="update_downloading">अपडेट डाउनलोड हो रहा है…</string>
+    <string name="update_failed">अपडेट फिर से आज़माएँ</string>
 </resources>

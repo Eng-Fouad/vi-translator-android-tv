@@ -21,4 +21,8 @@
     <string name="webview_old">เว็บเอนจินของทีวีเครื่องนี้เก่าเกินกว่าจะแสดงคำแปลได้ อัปเดต \"Android System WebView\" จาก Google Play</string>
     <string name="language">ภาษาของแอป</string>
     <string name="language_tv">ภาษาของทีวี</string>
+    <string name="update_available">อัปเดตเป็น %1$s</string>
+    <string name="update">อัปเดต</string>
+    <string name="update_downloading">กำลังดาวน์โหลดอัปเดต…</string>
+    <string name="update_failed">ลองอัปเดตอีกครั้ง</string>
 </resources>

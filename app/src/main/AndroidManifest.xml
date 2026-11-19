@@ -16,6 +16,8 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <!-- "Start when the TV turns on" -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- updates from the app's releases: Android's installer asks to confirm each one -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
     <!-- usesCleartextTraffic: the PC app's page is plain HTTP on the home network -->
     <application
@@ -54,6 +56,11 @@
                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
                 android:value="Waits a few minutes for the user's PC to connect, while the user switches the TV to the PC's input" />
         </service>
+
+        <!-- the installer's answer to an update -->
+        <receiver
+            android:name=".UpdateReceiver"
+            android:exported="false" />
 
         <receiver
             android:name=".BootReceiver"

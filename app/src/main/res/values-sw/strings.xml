@@ -21,4 +21,8 @@
     <string name="webview_old">Injini ya wavuti ya TV hii ni ya zamani mno kuchora tafsiri. Sasisha \"Android System WebView\" kutoka Google Play.</string>
     <string name="language">Lugha ya programu</string>
     <string name="language_tv">Lugha ya TV</string>
+    <string name="update_available">Sasisha hadi %1$s</string>
+    <string name="update">Sasisha</string>
+    <string name="update_downloading">Inapakua sasisho…</string>
+    <string name="update_failed">Jaribu kusasisha tena</string>
 </resources>

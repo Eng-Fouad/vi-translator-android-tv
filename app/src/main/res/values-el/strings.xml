@@ -21,4 +21,8 @@
     <string name="webview_old">Η μηχανή ιστού αυτής της τηλεόρασης είναι πολύ παλιά για να σχεδιάσει τις μεταφράσεις. Ενημερώστε το «Android System WebView» από το Google Play.</string>
     <string name="language">Γλώσσα εφαρμογής</string>
     <string name="language_tv">Γλώσσα τηλεόρασης</string>
+    <string name="update_available">Ενημέρωση σε %1$s</string>
+    <string name="update">Ενημέρωση</string>
+    <string name="update_downloading">Λήψη της ενημέρωσης…</string>
+    <string name="update_failed">Δοκίμασε ξανά την ενημέρωση</string>
 </resources>

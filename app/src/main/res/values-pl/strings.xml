@@ -21,4 +21,8 @@
     <string name="webview_old">Silnik WWW tego telewizora jest zbyt stary, by rysować tłumaczenia. Zaktualizuj „Android System WebView” w Google Play.</string>
     <string name="language">Język aplikacji</string>
     <string name="language_tv">Język telewizora</string>
+    <string name="update_available">Aktualizuj do %1$s</string>
+    <string name="update">Aktualizuj</string>
+    <string name="update_downloading">Pobieranie aktualizacji…</string>
+    <string name="update_failed">Spróbuj ponownie zaktualizować</string>
 </resources>

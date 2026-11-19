@@ -21,4 +21,8 @@
     <string name="webview_old">Enjin web TV ini terlalu lama untuk melukis terjemahan. Kemas kini \"Android System WebView\" daripada Google Play.</string>
     <string name="language">Bahasa aplikasi</string>
     <string name="language_tv">Bahasa TV</string>
+    <string name="update_available">Kemas kini ke %1$s</string>
+    <string name="update">Kemas kini</string>
+    <string name="update_downloading">Memuat turun kemas kini…</string>
+    <string name="update_failed">Cuba kemas kini semula</string>
 </resources>

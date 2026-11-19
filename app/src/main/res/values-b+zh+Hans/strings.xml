@@ -21,4 +21,8 @@
     <string name="webview_old">这台电视的网页引擎太旧，无法绘制翻译。请在 Google Play 中更新“Android System WebView”。</string>
     <string name="language">界面语言</string>
     <string name="language_tv">电视语言</string>
+    <string name="update_available">更新到 %1$s</string>
+    <string name="update">更新</string>
+    <string name="update_downloading">正在下载更新…</string>
+    <string name="update_failed">重试更新</string>
 </resources>

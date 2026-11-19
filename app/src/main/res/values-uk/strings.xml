@@ -21,4 +21,8 @@
     <string name="webview_old">Веб-рушій цього телевізора застарий, щоб малювати переклади. Оновіть «Android System WebView» у Google Play.</string>
     <string name="language">Мова застосунку</string>
     <string name="language_tv">Мова телевізора</string>
+    <string name="update_available">Оновити до %1$s</string>
+    <string name="update">Оновити</string>
+    <string name="update_downloading">Завантаження оновлення…</string>
+    <string name="update_failed">Повторити оновлення</string>
 </resources>

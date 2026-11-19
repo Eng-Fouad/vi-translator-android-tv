@@ -21,4 +21,8 @@
     <string name="webview_old">Công cụ web của TV này quá cũ để vẽ bản dịch. Hãy cập nhật \"Android System WebView\" từ Google Play.</string>
     <string name="language">Ngôn ngữ ứng dụng</string>
     <string name="language_tv">Ngôn ngữ của TV</string>
+    <string name="update_available">Cập nhật lên %1$s</string>
+    <string name="update">Cập nhật</string>
+    <string name="update_downloading">Đang tải bản cập nhật…</string>
+    <string name="update_failed">Thử cập nhật lại</string>
 </resources>

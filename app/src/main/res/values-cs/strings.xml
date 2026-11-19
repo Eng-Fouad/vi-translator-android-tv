@@ -21,4 +21,8 @@
     <string name="webview_old">Webový modul této televize je na vykreslení překladů příliš starý. Aktualizujte „Android System WebView“ z Google Play.</string>
     <string name="language">Jazyk aplikace</string>
     <string name="language_tv">Jazyk televize</string>
+    <string name="update_available">Aktualizovat na %1$s</string>
+    <string name="update">Aktualizovat</string>
+    <string name="update_downloading">Stahování aktualizace…</string>
+    <string name="update_failed">Zkusit aktualizaci znovu</string>
 </resources>

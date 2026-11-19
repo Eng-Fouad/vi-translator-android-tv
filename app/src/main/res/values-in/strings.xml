@@ -21,4 +21,8 @@
     <string name="webview_old">Mesin web TV ini terlalu lama untuk menggambar terjemahan. Perbarui \"Android System WebView\" dari Google Play.</string>
     <string name="language">Bahasa aplikasi</string>
     <string name="language_tv">Bahasa TV</string>
+    <string name="update_available">Perbarui ke %1$s</string>
+    <string name="update">Perbarui</string>
+    <string name="update_downloading">Mengunduh pembaruan…</string>
+    <string name="update_failed">Coba perbarui lagi</string>
 </resources>

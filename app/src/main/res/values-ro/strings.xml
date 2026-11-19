@@ -21,4 +21,8 @@
     <string name="webview_old">Motorul web al acestui televizor este prea vechi pentru a desena traducerile. Actualizează „Android System WebView” din Google Play.</string>
     <string name="language">Limba aplicației</string>
     <string name="language_tv">Limba televizorului</string>
+    <string name="update_available">Actualizează la %1$s</string>
+    <string name="update">Actualizează</string>
+    <string name="update_downloading">Se descarcă actualizarea…</string>
+    <string name="update_failed">Reîncearcă actualizarea</string>
 </resources>

@@ -22,4 +22,8 @@
     <string name="webview_old">This TV\'s web engine is too old to draw the translations. Update \"Android System WebView\" from Google Play.</string>
     <string name="language">App language</string>
     <string name="language_tv">TV language</string>
+    <string name="update_available">Update to %1$s</string>
+    <string name="update">Update</string>
+    <string name="update_downloading">Downloading the update…</string>
+    <string name="update_failed">Try the update again</string>
 </resources>

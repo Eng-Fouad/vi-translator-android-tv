@@ -21,4 +21,8 @@
     <string name="webview_old">O mecanismo web desta TV é antigo demais para desenhar as traduções. Atualize o \"Android System WebView\" pelo Google Play.</string>
     <string name="language">Idioma do app</string>
     <string name="language_tv">Idioma da TV</string>
+    <string name="update_available">Atualizar para %1$s</string>
+    <string name="update">Atualizar</string>
+    <string name="update_downloading">Baixando a atualização…</string>
+    <string name="update_failed">Tentar atualizar de novo</string>
 </resources>

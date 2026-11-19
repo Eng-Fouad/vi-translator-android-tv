@@ -21,4 +21,8 @@
     <string name="webview_old">Веб-движок этого телевизора слишком старый, чтобы рисовать переводы. Обновите «Android System WebView» в Google Play.</string>
     <string name="language">Язык приложения</string>
     <string name="language_tv">Язык телевизора</string>
+    <string name="update_available">Обновить до %1$s</string>
+    <string name="update">Обновить</string>
+    <string name="update_downloading">Загрузка обновления…</string>
+    <string name="update_failed">Повторить обновление</string>
 </resources>

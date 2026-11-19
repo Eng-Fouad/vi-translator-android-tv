@@ -21,4 +21,8 @@
     <string name="webview_old">موتور وب این تلویزیون برای نمایش ترجمه‌ها خیلی قدیمی است. «Android System WebView» را از Google Play به‌روز کنید.</string>
     <string name="language">زبان برنامه</string>
     <string name="language_tv">زبان تلویزیون</string>
+    <string name="update_available">به‌روزرسانی به %1$s</string>
+    <string name="update">به‌روزرسانی</string>
+    <string name="update_downloading">در حال دریافت به‌روزرسانی…</string>
+    <string name="update_failed">دوباره به‌روزرسانی کنید</string>
 </resources>

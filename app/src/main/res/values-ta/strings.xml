@@ -21,4 +21,8 @@
     <string name="webview_old">இந்த டிவியின் வலை இயந்திரம் மொழிபெயர்ப்புகளை வரைய மிகவும் பழையது. Google Play-இலிருந்து \"Android System WebView\"-ஐப் புதுப்பிக்கவும்.</string>
     <string name="language">செயலியின் மொழி</string>
     <string name="language_tv">டிவியின் மொழி</string>
+    <string name="update_available">%1$s க்குப் புதுப்பி</string>
+    <string name="update">புதுப்பி</string>
+    <string name="update_downloading">புதுப்பிப்பு பதிவிறக்கப்படுகிறது…</string>
+    <string name="update_failed">மீண்டும் புதுப்பிக்க முயல்</string>
 </resources>
