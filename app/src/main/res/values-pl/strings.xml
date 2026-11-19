@@ -6,12 +6,14 @@
     <string name="connected_to">Połączono z %1$s</string>
     <string name="looking_for">Szukanie %1$s…</string>
     <string name="overlays_off">Połączono z %1$s, ale jego nakładki są wyłączone</string>
+    <string name="connected_not_allowed">Połączono z %1$s, ale tłumaczenia nie pojawią się, dopóki nie naciśniesz Zezwól poniżej</string>
     <string name="show_on">Pokazuj na: %1$s</string>
     <string name="all_inputs">Wszystkich wejściach</string>
     <string name="disconnect">Rozłącz</string>
     <string name="permission_needed">Aby wyświetlać nad grą, aplikacja potrzebuje uprawnienia „Wyświetlanie nad innymi aplikacjami”.</string>
     <string name="allow">Zezwól</string>
     <string name="adb_hint">Telewizor nie ma tego ustawienia? Zezwól raz z komputera: %1$s</string>
+    <string name="no_settings_page">Ten telewizor nie ma strony dla tego ustawienia. Zezwól raz z komputera, za pomocą adb:</string>
     <string name="pair_channel">Łączenie</string>
     <string name="pair_notify">Czekanie, aż VI Translator na komputerze połączy ten telewizor</string>
     <string name="notify_channel">Nakładka</string>

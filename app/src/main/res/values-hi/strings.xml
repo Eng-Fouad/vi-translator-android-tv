@@ -6,12 +6,14 @@
     <string name="connected_to">%1$s से जुड़ा है</string>
     <string name="looking_for">%1$s खोजा जा रहा है…</string>
     <string name="overlays_off">%1$s से जुड़ा है, पर उसके ओवरले बंद हैं</string>
+    <string name="connected_not_allowed">%1$s से जुड़ा है, लेकिन जब तक आप नीचे अनुमति दें नहीं दबाते, अनुवाद नहीं दिखेंगे</string>
     <string name="show_on">दिखाएँ: %1$s</string>
     <string name="all_inputs">सभी इनपुट</string>
     <string name="disconnect">डिस्कनेक्ट करें</string>
     <string name="permission_needed">गेम के ऊपर दिखाने के लिए इस ऐप को \"दूसरे ऐप्स के ऊपर दिखाएँ\" अनुमति चाहिए।</string>
     <string name="allow">अनुमति दें</string>
     <string name="adb_hint">इस टीवी में यह सेटिंग नहीं है? किसी कंप्यूटर से एक बार अनुमति दें: %1$s</string>
+    <string name="no_settings_page">इस टीवी में इस सेटिंग का कोई पेज नहीं है। किसी कंप्यूटर से adb के ज़रिए एक बार अनुमति दें:</string>
     <string name="pair_channel">जोड़ना</string>
     <string name="pair_notify">आपके पीसी पर VI Translator के इस टीवी को जोड़ने का इंतज़ार</string>
     <string name="notify_channel">ओवरले</string>

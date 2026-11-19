@@ -6,12 +6,14 @@
     <string name="connected_to">%1$s शी जोडले</string>
     <string name="looking_for">%1$s शोधत आहे…</string>
     <string name="overlays_off">%1$s शी जोडले, पण त्याचे ओव्हरले बंद आहेत</string>
+    <string name="connected_not_allowed">%1$s शी जोडले आहे, पण खालील परवानगी द्या दाबेपर्यंत भाषांतरे दिसणार नाहीत</string>
     <string name="show_on">दाखवा: %1$s</string>
     <string name="all_inputs">सर्व इनपुट</string>
     <string name="disconnect">डिस्कनेक्ट करा</string>
     <string name="permission_needed">गेमवर दाखवण्यासाठी या अॅपला \"इतर अॅप्सवर दाखवा\" परवानगी हवी.</string>
     <string name="allow">परवानगी द्या</string>
     <string name="adb_hint">टीव्हीमध्ये हे सेटिंग नाही? संगणकावरून एकदा परवानगी द्या: %1$s</string>
+    <string name="no_settings_page">या टीव्हीवर या सेटिंगचे पेज नाही. एखाद्या कॉम्प्युटरवरून adb वापरून एकदा परवानगी द्या:</string>
     <string name="pair_channel">जोडणी</string>
     <string name="pair_notify">तुमच्या पीसीवरील VI Translator हा टीव्ही जोडण्याची वाट पाहत आहे</string>
     <string name="notify_channel">ओव्हरले</string>

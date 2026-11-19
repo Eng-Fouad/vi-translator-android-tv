@@ -7,12 +7,14 @@
     <string name="connected_to">Connected to %1$s</string>
     <string name="looking_for">Looking for %1$s…</string>
     <string name="overlays_off">Connected to %1$s, but its overlays are off</string>
+    <string name="connected_not_allowed">Connected to %1$s, but translations can\'t show until you press Allow below</string>
     <string name="show_on">Show on: %1$s</string>
     <string name="all_inputs">All inputs</string>
     <string name="disconnect">Disconnect</string>
     <string name="permission_needed">To draw over the game, this app needs \"Display over other apps\".</string>
     <string name="allow">Allow</string>
     <string name="adb_hint">No such setting on this TV? Allow it once from a computer: %1$s</string>
+    <string name="no_settings_page">This TV has no page for this setting. Allow it once from a computer, with adb:</string>
     <string name="pair_channel">Connecting</string>
     <string name="pair_notify">Waiting for VI Translator on your PC to connect this TV</string>
     <string name="notify_channel">Overlay</string>

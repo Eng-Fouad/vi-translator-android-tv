@@ -6,12 +6,14 @@
     <string name="connected_to">Terhubung ke %1$s</string>
     <string name="looking_for">Mencari %1$s…</string>
     <string name="overlays_off">Terhubung ke %1$s, tetapi overlay-nya mati</string>
+    <string name="connected_not_allowed">Terhubung ke %1$s, tetapi terjemahan tidak akan tampil sampai Anda menekan Izinkan di bawah</string>
     <string name="show_on">Tampilkan di: %1$s</string>
     <string name="all_inputs">Semua input</string>
     <string name="disconnect">Putuskan</string>
     <string name="permission_needed">Agar tampil di atas game, aplikasi ini memerlukan \"Tampilkan di atas aplikasi lain\".</string>
     <string name="allow">Izinkan</string>
     <string name="adb_hint">Pengaturan ini tidak ada di TV? Izinkan sekali dari komputer: %1$s</string>
+    <string name="no_settings_page">TV ini tidak punya halaman untuk setelan ini. Izinkan sekali dari komputer, dengan adb:</string>
     <string name="pair_channel">Menghubungkan</string>
     <string name="pair_notify">Menunggu VI Translator di PC Anda menghubungkan TV ini</string>
     <string name="notify_channel">Overlay</string>

@@ -6,12 +6,14 @@
     <string name="connected_to">%1$sకి కనెక్ట్ అయింది</string>
     <string name="looking_for">%1$s కోసం వెతుకుతోంది…</string>
     <string name="overlays_off">%1$sకి కనెక్ట్ అయింది, కానీ దాని ఓవర్‌లేలు ఆఫ్‌లో ఉన్నాయి</string>
+    <string name="connected_not_allowed">%1$sకి కనెక్ట్ అయింది, కానీ కింద ఉన్న అనుమతించు నొక్కే వరకు అనువాదాలు కనిపించవు</string>
     <string name="show_on">చూపించు: %1$s</string>
     <string name="all_inputs">అన్ని ఇన్‌పుట్‌లు</string>
     <string name="disconnect">డిస్‌కనెక్ట్ చేయి</string>
     <string name="permission_needed">గేమ్ పైన చూపించడానికి ఈ యాప్‌కు \"ఇతర యాప్‌ల పైన చూపించు\" అనుమతి కావాలి.</string>
     <string name="allow">అనుమతించు</string>
     <string name="adb_hint">టీవీలో ఈ సెట్టింగ్ లేదా? కంప్యూటర్ నుండి ఒకసారి అనుమతించండి: %1$s</string>
+    <string name="no_settings_page">ఈ టీవీలో ఈ సెట్టింగ్‌కు పేజీ లేదు. ఒక కంప్యూటర్ నుండి adb ద్వారా ఒకసారి అనుమతించండి:</string>
     <string name="pair_channel">కనెక్ట్ చేయడం</string>
     <string name="pair_notify">మీ PCలోని VI Translator ఈ టీవీని కనెక్ట్ చేసే వరకు వేచి ఉంది</string>
     <string name="notify_channel">ఓవర్‌లే</string>

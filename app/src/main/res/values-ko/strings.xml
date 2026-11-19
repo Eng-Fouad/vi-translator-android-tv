@@ -6,12 +6,14 @@
     <string name="connected_to">%1$s에 연결됨</string>
     <string name="looking_for">%1$s 찾는 중…</string>
     <string name="overlays_off">%1$s에 연결되었지만 오버레이가 꺼져 있습니다</string>
+    <string name="connected_not_allowed">%1$s에 연결되었지만 아래의 허용을 누르기 전에는 번역이 표시되지 않습니다</string>
     <string name="show_on">표시: %1$s</string>
     <string name="all_inputs">모든 입력</string>
     <string name="disconnect">연결 해제</string>
     <string name="permission_needed">게임 위에 표시하려면 이 앱에 \'다른 앱 위에 표시\' 권한이 필요합니다.</string>
     <string name="allow">허용</string>
     <string name="adb_hint">TV에 이 설정이 없나요? 컴퓨터에서 한 번 허용하세요: %1$s</string>
+    <string name="no_settings_page">이 TV에는 이 설정 페이지가 없습니다. 컴퓨터에서 adb로 한 번 허용하세요:</string>
     <string name="pair_channel">연결</string>
     <string name="pair_notify">PC의 VI Translator가 이 TV를 연결하기를 기다리는 중</string>
     <string name="notify_channel">오버레이</string>

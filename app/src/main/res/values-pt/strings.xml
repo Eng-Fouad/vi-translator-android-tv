@@ -6,12 +6,14 @@
     <string name="connected_to">Conectado a %1$s</string>
     <string name="looking_for">Procurando %1$s…</string>
     <string name="overlays_off">Conectado a %1$s, mas as sobreposições estão desativadas</string>
+    <string name="connected_not_allowed">Ligado a %1$s, mas as traduções só aparecem depois de premir Permitir abaixo</string>
     <string name="show_on">Mostrar em: %1$s</string>
     <string name="all_inputs">Todas as entradas</string>
     <string name="disconnect">Desconectar</string>
     <string name="permission_needed">Para aparecer sobre o jogo, este app precisa de \"Sobrepor a outros apps\".</string>
     <string name="allow">Permitir</string>
     <string name="adb_hint">A TV não tem essa configuração? Permita uma vez a partir de um computador: %1$s</string>
+    <string name="no_settings_page">Esta TV não tem uma página para esta definição. Permita-a uma vez a partir de um computador, com adb:</string>
     <string name="pair_channel">Conexão</string>
     <string name="pair_notify">Aguardando o VI Translator no seu PC conectar esta TV</string>
     <string name="notify_channel">Sobreposição</string>

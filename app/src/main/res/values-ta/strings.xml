@@ -6,12 +6,14 @@
     <string name="connected_to">%1$s உடன் இணைந்தது</string>
     <string name="looking_for">%1$s தேடப்படுகிறது…</string>
     <string name="overlays_off">%1$s உடன் இணைந்தது, ஆனால் அதன் மேலடுக்குகள் முடக்கப்பட்டுள்ளன</string>
+    <string name="connected_not_allowed">%1$s உடன் இணைக்கப்பட்டது, ஆனால் கீழே உள்ள அனுமதி என்பதை அழுத்தும் வரை மொழிபெயர்ப்புகள் தெரியாது</string>
     <string name="show_on">காட்டு: %1$s</string>
     <string name="all_inputs">அனைத்து உள்ளீடுகள்</string>
     <string name="disconnect">துண்டி</string>
     <string name="permission_needed">விளையாட்டின் மேல் காட்ட, இந்தச் செயலிக்கு \"பிற செயலிகளின் மேல் காட்டு\" அனுமதி தேவை.</string>
     <string name="allow">அனுமதி</string>
     <string name="adb_hint">டிவியில் இந்த அமைப்பு இல்லையா? ஒரு கணினியிலிருந்து ஒருமுறை அனுமதிக்கவும்: %1$s</string>
+    <string name="no_settings_page">இந்த டிவியில் இந்த அமைப்புக்கான பக்கம் இல்லை. ஒரு கணினியிலிருந்து adb மூலம் ஒருமுறை அனுமதிக்கவும்:</string>
     <string name="pair_channel">இணைப்பு</string>
     <string name="pair_notify">உங்கள் கணினியின் VI Translator இந்த டிவியை இணைக்கக் காத்திருக்கிறது</string>
     <string name="notify_channel">மேலடுக்கு</string>

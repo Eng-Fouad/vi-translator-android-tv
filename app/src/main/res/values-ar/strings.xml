@@ -6,12 +6,14 @@
     <string name="connected_to">متصل بـ %1$s</string>
     <string name="looking_for">جارٍ البحث عن %1$s…</string>
     <string name="overlays_off">متصل بـ %1$s، لكن الترجمة على اللعبة مُطفأة فيه</string>
+    <string name="connected_not_allowed">متصل بـ %1$s، لكن لن تظهر الترجمات حتى تضغط «السماح» في الأسفل</string>
     <string name="show_on">العرض على: %1$s</string>
     <string name="all_inputs">كل المداخل</string>
     <string name="disconnect">قطع الاتصال</string>
     <string name="permission_needed">ليرسم فوق اللعبة، يحتاج هذا التطبيق إلى إذن «العرض فوق التطبيقات الأخرى».</string>
     <string name="allow">السماح</string>
     <string name="adb_hint">لا يوجد هذا الإعداد في التلفاز؟ اسمح به مرة واحدة من كمبيوتر: %1$s</string>
+    <string name="no_settings_page">لا توجد في هذا التلفاز صفحة لهذا الإعداد. اسمح به مرة واحدة من كمبيوتر باستخدام adb:</string>
     <string name="pair_channel">الربط</string>
     <string name="pair_notify">بانتظار أن يربط VI Translator على الكمبيوتر هذا التلفاز</string>
     <string name="notify_channel">الطبقة</string>

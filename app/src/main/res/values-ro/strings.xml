@@ -6,12 +6,14 @@
     <string name="connected_to">Conectat la %1$s</string>
     <string name="looking_for">Se caută %1$s…</string>
     <string name="overlays_off">Conectat la %1$s, dar suprapunerile lui sunt oprite</string>
+    <string name="connected_not_allowed">Conectat la %1$s, dar traducerile nu vor apărea până nu apeși Permite mai jos</string>
     <string name="show_on">Afișează pe: %1$s</string>
     <string name="all_inputs">Toate intrările</string>
     <string name="disconnect">Deconectează</string>
     <string name="permission_needed">Ca să apară peste joc, aplicația are nevoie de „Afișare peste alte aplicații”.</string>
     <string name="allow">Permite</string>
     <string name="adb_hint">Televizorul nu are această setare? Permite-o o dată de pe un computer: %1$s</string>
+    <string name="no_settings_page">Acest televizor nu are o pagină pentru această setare. Permite-o o dată de pe un computer, cu adb:</string>
     <string name="pair_channel">Conectare</string>
     <string name="pair_notify">Se așteaptă ca VI Translator de pe PC să conecteze acest televizor</string>
     <string name="notify_channel">Suprapunere</string>

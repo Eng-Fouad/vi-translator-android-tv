@@ -6,12 +6,14 @@
     <string name="connected_to">Verbunden mit %1$s</string>
     <string name="looking_for">Suche %1$s…</string>
     <string name="overlays_off">Verbunden mit %1$s, aber seine Overlays sind aus</string>
+    <string name="connected_not_allowed">Verbunden mit %1$s, aber Übersetzungen erscheinen erst, wenn du unten auf Erlauben drückst</string>
     <string name="show_on">Zeigen auf: %1$s</string>
     <string name="all_inputs">Allen Eingängen</string>
     <string name="disconnect">Trennen</string>
     <string name="permission_needed">Um über dem Spiel zu zeichnen, braucht diese App „Über anderen Apps einblenden“.</string>
     <string name="allow">Erlauben</string>
     <string name="adb_hint">Diese Einstellung fehlt auf dem Fernseher? Erlaube sie einmal von einem Computer aus: %1$s</string>
+    <string name="no_settings_page">Dieser Fernseher hat keine Seite für diese Einstellung. Erlaube es einmal von einem Computer aus, mit adb:</string>
     <string name="pair_channel">Verbinden</string>
     <string name="pair_notify">Wartet darauf, dass VI Translator auf deinem PC diesen Fernseher verbindet</string>
     <string name="notify_channel">Overlay</string>

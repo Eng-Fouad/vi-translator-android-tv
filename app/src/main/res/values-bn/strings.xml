@@ -6,12 +6,14 @@
     <string name="connected_to">%1$s-এর সাথে সংযুক্ত</string>
     <string name="looking_for">%1$s খোঁজা হচ্ছে…</string>
     <string name="overlays_off">%1$s-এর সাথে সংযুক্ত, কিন্তু এর ওভারলে বন্ধ</string>
+    <string name="connected_not_allowed">%1$s-এর সাথে সংযুক্ত, কিন্তু নিচের অনুমতি দিন না চাপা পর্যন্ত অনুবাদ দেখানো যাবে না</string>
     <string name="show_on">দেখান: %1$s</string>
     <string name="all_inputs">সব ইনপুট</string>
     <string name="disconnect">সংযোগ বিচ্ছিন্ন করুন</string>
     <string name="permission_needed">গেমের উপরে দেখাতে এই অ্যাপের \"অন্যান্য অ্যাপের উপরে দেখান\" অনুমতি দরকার।</string>
     <string name="allow">অনুমতি দিন</string>
     <string name="adb_hint">এই টিভিতে এমন সেটিং নেই? একটি কম্পিউটার থেকে একবার অনুমতি দিন: %1$s</string>
+    <string name="no_settings_page">এই টিভিতে এই সেটিংয়ের কোনো পাতা নেই। একটি কম্পিউটার থেকে adb দিয়ে একবার অনুমতি দিন:</string>
     <string name="pair_channel">সংযোগ</string>
     <string name="pair_notify">আপনার পিসির VI Translator এই টিভি সংযুক্ত করার অপেক্ষায়</string>
     <string name="notify_channel">ওভারলে</string>

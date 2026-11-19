@@ -6,12 +6,14 @@
     <string name="connected_to">Συνδέθηκε με %1$s</string>
     <string name="looking_for">Αναζήτηση %1$s…</string>
     <string name="overlays_off">Συνδέθηκε με %1$s, αλλά οι επικαλύψεις του είναι κλειστές</string>
+    <string name="connected_not_allowed">Συνδέθηκε με %1$s, αλλά οι μεταφράσεις δεν θα εμφανιστούν μέχρι να πατήσετε «Να επιτρέπεται» παρακάτω</string>
     <string name="show_on">Προβολή σε: %1$s</string>
     <string name="all_inputs">Όλες τις εισόδους</string>
     <string name="disconnect">Αποσύνδεση</string>
     <string name="permission_needed">Για να εμφανίζεται πάνω από το παιχνίδι, η εφαρμογή χρειάζεται την άδεια «Εμφάνιση πάνω από άλλες εφαρμογές».</string>
     <string name="allow">Να επιτρέπεται</string>
     <string name="adb_hint">Δεν υπάρχει αυτή η ρύθμιση στην τηλεόραση; Επιτρέψτε την μία φορά από υπολογιστή: %1$s</string>
+    <string name="no_settings_page">Αυτή η τηλεόραση δεν έχει σελίδα για αυτή τη ρύθμιση. Επιτρέψτε την μία φορά από υπολογιστή, με adb:</string>
     <string name="pair_channel">Σύνδεση</string>
     <string name="pair_notify">Αναμονή για το VI Translator στον υπολογιστή σας να συνδέσει αυτήν την τηλεόραση</string>
     <string name="notify_channel">Επικάλυψη</string>

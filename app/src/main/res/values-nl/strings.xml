@@ -6,12 +6,14 @@
     <string name="connected_to">Gekoppeld aan %1$s</string>
     <string name="looking_for">%1$s zoeken…</string>
     <string name="overlays_off">Gekoppeld aan %1$s, maar de overlays staan uit</string>
+    <string name="connected_not_allowed">Verbonden met %1$s, maar vertalingen verschijnen pas als je hieronder op Toestaan drukt</string>
     <string name="show_on">Tonen op: %1$s</string>
     <string name="all_inputs">Alle ingangen</string>
     <string name="disconnect">Ontkoppelen</string>
     <string name="permission_needed">Om over het spel te tekenen, heeft deze app \'Weergeven vóór andere apps\' nodig.</string>
     <string name="allow">Toestaan</string>
     <string name="adb_hint">Heeft de tv deze instelling niet? Sta het één keer toe vanaf een computer: %1$s</string>
+    <string name="no_settings_page">Deze tv heeft geen pagina voor deze instelling. Sta het één keer toe vanaf een computer, met adb:</string>
     <string name="pair_channel">Koppelen</string>
     <string name="pair_notify">Wachten tot VI Translator op je pc deze tv koppelt</string>
     <string name="notify_channel">Overlay</string>

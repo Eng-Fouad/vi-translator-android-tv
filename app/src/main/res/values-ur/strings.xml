@@ -6,12 +6,14 @@
     <string name="connected_to">%1$s سے جڑا ہے</string>
     <string name="looking_for">%1$s تلاش کیا جا رہا ہے…</string>
     <string name="overlays_off">%1$s سے جڑا ہے، لیکن اس کے اوورلے بند ہیں</string>
+    <string name="connected_not_allowed">%1$s سے منسلک ہے، لیکن جب تک آپ نیچے اجازت دیں نہیں دبائیں گے ترجمے نظر نہیں آئیں گے</string>
     <string name="show_on">دکھائیں: %1$s</string>
     <string name="all_inputs">تمام ان پٹ</string>
     <string name="disconnect">منقطع کریں</string>
     <string name="permission_needed">گیم کے اوپر دکھانے کے لیے اس ایپ کو \"دوسری ایپس کے اوپر دکھائیں\" کی اجازت چاہیے۔</string>
     <string name="allow">اجازت دیں</string>
     <string name="adb_hint">ٹی وی میں یہ ترتیب نہیں؟ کمپیوٹر سے ایک بار اجازت دیں: %1$s</string>
+    <string name="no_settings_page">اس ٹی وی میں اس ترتیب کا کوئی صفحہ نہیں ہے۔ کسی کمپیوٹر سے adb کے ذریعے ایک بار اجازت دیں:</string>
     <string name="pair_channel">جوڑنا</string>
     <string name="pair_notify">آپ کے پی سی پر VI Translator کے اس ٹی وی کو جوڑنے کا انتظار</string>
     <string name="notify_channel">اوورلے</string>

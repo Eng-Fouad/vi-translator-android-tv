@@ -6,12 +6,14 @@
     <string name="connected_to">Collegato a %1$s</string>
     <string name="looking_for">Ricerca di %1$s…</string>
     <string name="overlays_off">Collegato a %1$s, ma le sue sovrapposizioni sono disattivate</string>
+    <string name="connected_not_allowed">Connesso a %1$s, ma le traduzioni non appariranno finché non premi Consenti qui sotto</string>
     <string name="show_on">Mostra su: %1$s</string>
     <string name="all_inputs">Tutti gli ingressi</string>
     <string name="disconnect">Scollega</string>
     <string name="permission_needed">Per apparire sopra il gioco, questa app ha bisogno di \"Mostra sopra altre app\".</string>
     <string name="allow">Consenti</string>
     <string name="adb_hint">La TV non ha questa impostazione? Consentila una volta da un computer: %1$s</string>
+    <string name="no_settings_page">Questo televisore non ha una pagina per questa impostazione. Consentila una volta da un computer, con adb:</string>
     <string name="pair_channel">Collegamento</string>
     <string name="pair_notify">In attesa che VI Translator sul PC colleghi questa TV</string>
     <string name="notify_channel">Sovrapposizione</string>

@@ -6,12 +6,14 @@
     <string name="connected_to">Подключено к %1$s</string>
     <string name="looking_for">Поиск %1$s…</string>
     <string name="overlays_off">Подключено к %1$s, но его наложения выключены</string>
+    <string name="connected_not_allowed">Подключено к %1$s, но переводы не появятся, пока вы не нажмёте «Разрешить» ниже</string>
     <string name="show_on">Показывать на: %1$s</string>
     <string name="all_inputs">Всех входах</string>
     <string name="disconnect">Отключить</string>
     <string name="permission_needed">Чтобы показывать поверх игры, приложению нужно разрешение «Поверх других приложений».</string>
     <string name="allow">Разрешить</string>
     <string name="adb_hint">На телевизоре нет такой настройки? Разрешите один раз с компьютера: %1$s</string>
+    <string name="no_settings_page">На этом телевизоре нет страницы для этой настройки. Разрешите один раз с компьютера через adb:</string>
     <string name="pair_channel">Подключение</string>
     <string name="pair_notify">Ожидание, пока VI Translator на ПК подключит этот телевизор</string>
     <string name="notify_channel">Наложение</string>

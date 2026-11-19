@@ -6,12 +6,14 @@
     <string name="connected_to">Disambungkan ke %1$s</string>
     <string name="looking_for">Mencari %1$s…</string>
     <string name="overlays_off">Disambungkan ke %1$s, tetapi tindanannya dimatikan</string>
+    <string name="connected_not_allowed">Disambungkan ke %1$s, tetapi terjemahan tidak akan dipaparkan sehingga anda menekan Benarkan di bawah</string>
     <string name="show_on">Tunjukkan pada: %1$s</string>
     <string name="all_inputs">Semua input</string>
     <string name="disconnect">Putuskan sambungan</string>
     <string name="permission_needed">Untuk dipaparkan di atas permainan, aplikasi ini memerlukan \"Paparkan di atas apl lain\".</string>
     <string name="allow">Benarkan</string>
     <string name="adb_hint">TV tiada tetapan ini? Benarkannya sekali daripada komputer: %1$s</string>
+    <string name="no_settings_page">TV ini tiada halaman untuk tetapan ini. Benarkan sekali daripada komputer, dengan adb:</string>
     <string name="pair_channel">Menyambung</string>
     <string name="pair_notify">Menunggu VI Translator pada PC anda menyambungkan TV ini</string>
     <string name="notify_channel">Tindanan</string>

@@ -39,6 +39,8 @@ class MainActivity : Activity() {
     private lateinit var language: Button
     private var inputs: List<Inputs.Input> = emptyList()
     private var resumed = false
+    /** Whether "Display over other apps" was allowed at the last look (null: not looked yet). */
+    private var wasAllowed: Boolean? = null
 
     private val tick = object : Runnable {
         override fun run() {
@@ -115,7 +117,7 @@ class MainActivity : Activity() {
         permission.addView(Look.text(this, getString(R.string.permission_needed), 17f, 400, Look.WARN), wrap())
         allow = Look.button(this, getString(R.string.allow)).apply { setOnClickListener { askPermission() } }
         permission.addView(allow, wrap().apply { topMargin = dp(12) })
-        val adb = getString(R.string.adb_hint, "adb shell appops set $packageName SYSTEM_ALERT_WINDOW allow")
+        val adb = getString(R.string.adb_hint, adbCommand)
         permission.addView(Look.text(this, adb, 13f, 400, Look.MUTED).apply { setPadding(0, dp(12), 0, 0) }, wrap())
         col.addView(permission, wrap().apply { topMargin = dp(30) })
 
@@ -178,7 +180,9 @@ class MainActivity : Activity() {
             PairService.stop(this)
             showOn.visibility = if (inputs.isEmpty()) View.GONE else View.VISIBLE
             showOn.text = getString(R.string.show_on, showOnLabel())
-            if (!disconnect.hasFocus() && !showOn.hasFocus()) (if (inputs.isEmpty()) disconnect else showOn).requestFocus()
+            // (not allowed: the Allow button first, or the player sees "connected" and nothing over the game)
+            if (!Compat.canDrawOverlays(this)) allow.requestFocus()
+            else if (!disconnect.hasFocus() && !showOn.hasFocus()) (if (inputs.isEmpty()) disconnect else showOn).requestFocus()
         } else {
             thisTv.text = getString(R.string.this_tv, PairServer.deviceName(this))
             PairService.start(this)
@@ -191,7 +195,13 @@ class MainActivity : Activity() {
     private fun refresh() {
         val allowed = Compat.canDrawOverlays(this)
         permission.visibility = if (allowed) View.GONE else View.VISIBLE
-        if (!allowed && !allow.hasFocus() && !prefs.connected) allow.requestFocus()
+        // just found not allowed (opened, back from Settings without allowing, or revoked meanwhile):
+        // the remote on Allow. Only then, so it can still be moved to the other buttons.
+        if (allowed != wasAllowed) {
+            wasAllowed = allowed
+            if (!allowed) allow.requestFocus()
+            else if (prefs.connected && connected.visibility == View.VISIBLE) (if (inputs.isEmpty()) disconnect else showOn).requestFocus()
+        }
         if (!prefs.connected) {
             // (the PC removed this TV meanwhile: back to a code)
             if (connected.visibility == View.VISIBLE) render()
@@ -205,12 +215,15 @@ class MainActivity : Activity() {
         }
         if (allowed && !OverlayService.running) OverlayService.start(this)
         val pc = prefs.pcName
-        val (color, text) = when (OverlayService.state) {
+        val (color, text) = if (!allowed) Look.WARN to getString(R.string.connected_not_allowed, pc) else when (OverlayService.state) {
             Pc.State.OK -> Look.NEON to getString(R.string.connected_to, pc)
             Pc.State.OVERLAYS_OFF -> Look.WARN to getString(R.string.overlays_off, pc)
             else -> Look.ORANGE to getString(R.string.looking_for, pc)
         }
         status.text = text
+        // (the warning in its colour, and smaller: it's long, and the permission card shows below it)
+        status.setTextColor(if (allowed) Look.TEXT else Look.WARN)
+        status.setTextSize(android.util.TypedValue.COMPLEX_UNIT_SP, if (allowed) 26f else 20f)
         status.setCompoundDrawablesRelativeWithIntrinsicBounds(Look.dot(this, color), null, null, null)
     }
 
@@ -275,10 +288,17 @@ class MainActivity : Activity() {
             try {
                 startActivity(Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION))
             } catch (ignored: ActivityNotFoundException) {
-                // (no such page on this TV: the adb command shown does it)
+                // no such page on this TV: only adb can allow it
+                AlertDialog.Builder(this, android.R.style.Theme_Material_Dialog_Alert)
+                    .setMessage(getString(R.string.no_settings_page) + "\n\n" + adbCommand)
+                    .setPositiveButton(android.R.string.ok, null)
+                    .show()
             }
         }
     }
+
+    /** Allows "Display over other apps" from a computer, on a TV with no page for it. */
+    private val adbCommand get() = "adb shell appops set $packageName SYSTEM_ALERT_WINDOW allow"
 
     private fun column() = LinearLayout(this).apply {
         orientation = LinearLayout.VERTICAL

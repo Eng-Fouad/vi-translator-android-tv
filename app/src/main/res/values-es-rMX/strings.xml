@@ -6,12 +6,14 @@
     <string name="connected_to">Conectado a %1$s</string>
     <string name="looking_for">Buscando %1$s…</string>
     <string name="overlays_off">Conectado a %1$s, pero sus superposiciones están desactivadas</string>
+    <string name="connected_not_allowed">Conectado a %1$s, pero las traducciones no se verán hasta que presiones Permitir abajo</string>
     <string name="show_on">Mostrar en: %1$s</string>
     <string name="all_inputs">Todas las entradas</string>
     <string name="disconnect">Desconectar</string>
     <string name="permission_needed">Para mostrarse sobre el juego, esta app necesita «Mostrar sobre otras apps».</string>
     <string name="allow">Permitir</string>
     <string name="adb_hint">¿La TV no tiene ese ajuste? Permítelo una vez desde una computadora: %1$s</string>
+    <string name="no_settings_page">Esta TV no tiene una página para este ajuste. Permítelo una vez desde una computadora, con adb:</string>
     <string name="pair_channel">Conexión</string>
     <string name="pair_notify">Esperando a que VI Translator en tu PC conecte esta TV</string>
     <string name="notify_channel">Superposición</string>

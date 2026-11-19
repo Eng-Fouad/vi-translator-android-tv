@@ -6,12 +6,14 @@
     <string name="connected_to">已连接到 %1$s</string>
     <string name="looking_for">正在查找 %1$s…</string>
     <string name="overlays_off">已连接到 %1$s，但其叠加层已关闭</string>
+    <string name="connected_not_allowed">已连接到 %1$s，但在你按下方的“允许”之前无法显示翻译</string>
     <string name="show_on">显示于：%1$s</string>
     <string name="all_inputs">所有输入源</string>
     <string name="disconnect">断开连接</string>
     <string name="permission_needed">要显示在游戏画面上方，此应用需要“显示在其他应用的上层”权限。</string>
     <string name="allow">允许</string>
     <string name="adb_hint">电视上没有此设置？请从电脑上允许一次：%1$s</string>
+    <string name="no_settings_page">这台电视没有此设置的页面。请用电脑通过 adb 允许一次：</string>
     <string name="pair_channel">连接</string>
     <string name="pair_notify">正在等待电脑上的 VI Translator 连接这台电视</string>
     <string name="notify_channel">叠加层</string>

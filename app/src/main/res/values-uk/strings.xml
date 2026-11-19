@@ -6,12 +6,14 @@
     <string name="connected_to">Підключено до %1$s</string>
     <string name="looking_for">Пошук %1$s…</string>
     <string name="overlays_off">Підключено до %1$s, але його накладання вимкнені</string>
+    <string name="connected_not_allowed">Під’єднано до %1$s, але переклади не з’являться, доки ви не натиснете «Дозволити» нижче</string>
     <string name="show_on">Показувати на: %1$s</string>
     <string name="all_inputs">Усіх входах</string>
     <string name="disconnect">Від\'єднати</string>
     <string name="permission_needed">Щоб показувати поверх гри, застосунку потрібен дозвіл «Поверх інших застосунків».</string>
     <string name="allow">Дозволити</string>
     <string name="adb_hint">На телевізорі немає такого налаштування? Дозвольте один раз із комп\'ютера: %1$s</string>
+    <string name="no_settings_page">На цьому телевізорі немає сторінки для цього налаштування. Дозвольте один раз із комп’ютера через adb:</string>
     <string name="pair_channel">Підключення</string>
     <string name="pair_notify">Очікування, поки VI Translator на ПК підключить цей телевізор</string>
     <string name="notify_channel">Накладання</string>

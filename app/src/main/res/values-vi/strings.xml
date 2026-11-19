@@ -6,12 +6,14 @@
     <string name="connected_to">Đã kết nối với %1$s</string>
     <string name="looking_for">Đang tìm %1$s…</string>
     <string name="overlays_off">Đã kết nối với %1$s, nhưng lớp phủ của nó đang tắt</string>
+    <string name="connected_not_allowed">Đã kết nối với %1$s, nhưng bản dịch sẽ không hiện cho đến khi bạn nhấn Cho phép bên dưới</string>
     <string name="show_on">Hiển thị trên: %1$s</string>
     <string name="all_inputs">Mọi đầu vào</string>
     <string name="disconnect">Ngắt kết nối</string>
     <string name="permission_needed">Để hiển thị trên trò chơi, ứng dụng cần quyền \"Hiển thị trên các ứng dụng khác\".</string>
     <string name="allow">Cho phép</string>
     <string name="adb_hint">TV không có cài đặt này? Hãy cho phép một lần từ máy tính: %1$s</string>
+    <string name="no_settings_page">TV này không có trang cho cài đặt này. Hãy cho phép một lần từ máy tính, bằng adb:</string>
     <string name="pair_channel">Kết nối</string>
     <string name="pair_notify">Đang chờ VI Translator trên PC kết nối TV này</string>
     <string name="notify_channel">Lớp phủ</string>

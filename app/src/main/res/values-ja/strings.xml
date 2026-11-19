@@ -6,12 +6,14 @@
     <string name="connected_to">%1$s に接続しました</string>
     <string name="looking_for">%1$s を探しています…</string>
     <string name="overlays_off">%1$s に接続しましたが、オーバーレイがオフです</string>
+    <string name="connected_not_allowed">%1$s に接続しましたが、下の「許可」を押すまで翻訳は表示されません</string>
     <string name="show_on">表示: %1$s</string>
     <string name="all_inputs">すべての入力</string>
     <string name="disconnect">接続を解除</string>
     <string name="permission_needed">ゲームの上に表示するには「他のアプリの上に重ねて表示」の許可が必要です。</string>
     <string name="allow">許可</string>
     <string name="adb_hint">この設定がテレビにありませんか？ パソコンから一度だけ許可してください: %1$s</string>
+    <string name="no_settings_page">このテレビにはこの設定のページがありません。パソコンから adb で一度だけ許可してください：</string>
     <string name="pair_channel">接続</string>
     <string name="pair_notify">PC の VI Translator がこのテレビを接続するのを待っています</string>
     <string name="notify_channel">オーバーレイ</string>

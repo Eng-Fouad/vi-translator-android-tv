@@ -6,12 +6,14 @@
     <string name="connected_to">متصل به %1$s</string>
     <string name="looking_for">در حال جستجوی %1$s…</string>
     <string name="overlays_off">متصل به %1$s، اما همپوشانی‌هایش خاموش است</string>
+    <string name="connected_not_allowed">به %1$s متصل است، اما تا وقتی «اجازه دادن» را در پایین نزنید ترجمه‌ها نمایش داده نمی‌شوند</string>
     <string name="show_on">نمایش روی: %1$s</string>
     <string name="all_inputs">همه ورودی‌ها</string>
     <string name="disconnect">قطع اتصال</string>
     <string name="permission_needed">برای نمایش روی بازی، این برنامه به اجازه «نمایش روی برنامه‌های دیگر» نیاز دارد.</string>
     <string name="allow">اجازه دادن</string>
     <string name="adb_hint">این تنظیم در تلویزیون نیست؟ یک بار از رایانه اجازه دهید: %1$s</string>
+    <string name="no_settings_page">این تلویزیون صفحه‌ای برای این تنظیم ندارد. یک بار از یک رایانه با adb اجازه دهید:</string>
     <string name="pair_channel">اتصال</string>
     <string name="pair_notify">در انتظار اینکه VI Translator روی رایانه این تلویزیون را وصل کند</string>
     <string name="notify_channel">همپوشانی</string>

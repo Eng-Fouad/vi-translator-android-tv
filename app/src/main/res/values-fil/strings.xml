@@ -6,12 +6,14 @@
     <string name="connected_to">Nakakonekta sa %1$s</string>
     <string name="looking_for">Hinahanap ang %1$s…</string>
     <string name="overlays_off">Nakakonekta sa %1$s, pero naka-off ang mga overlay nito</string>
+    <string name="connected_not_allowed">Nakakonekta sa %1$s, pero hindi lalabas ang mga salin hangga\'t hindi mo pinipindot ang Payagan sa ibaba</string>
     <string name="show_on">Ipakita sa: %1$s</string>
     <string name="all_inputs">Lahat ng input</string>
     <string name="disconnect">Idiskonekta</string>
     <string name="permission_needed">Para lumabas sa ibabaw ng laro, kailangan ng app na ito ang \"Ipakita sa ibabaw ng ibang app\".</string>
     <string name="allow">Payagan</string>
     <string name="adb_hint">Walang ganitong setting sa TV? Payagan ito nang isang beses mula sa isang computer: %1$s</string>
+    <string name="no_settings_page">Walang pahina para sa setting na ito sa TV na ito. Payagan ito nang isang beses mula sa isang computer, gamit ang adb:</string>
     <string name="pair_channel">Pagkonekta</string>
     <string name="pair_notify">Hinihintay ang VI Translator sa iyong PC na ikonekta ang TV na ito</string>
     <string name="notify_channel">Overlay</string>
