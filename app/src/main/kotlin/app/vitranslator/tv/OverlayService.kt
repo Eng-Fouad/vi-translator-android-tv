@@ -10,8 +10,10 @@ import android.graphics.PixelFormat
 import android.os.Handler
 import android.os.IBinder
 import android.os.Looper
+import android.os.SystemClock
 import android.view.View
 import android.view.WindowManager
+import android.webkit.JavascriptInterface
 import android.webkit.WebResourceError
 import android.webkit.WebResourceRequest
 import android.webkit.WebResourceResponse
@@ -35,6 +37,13 @@ class OverlayService : Service() {
     private var url: String? = null
     private var unreachable = 0
     private var finding = false
+
+    /** When the page last said it's alive (it does on every answer from the PC), and whether it ever did. */
+    @Volatile
+    private var aliveAt = 0L
+
+    @Volatile
+    private var pinged = false
     private val retry = Runnable { load() }
     private val check = Runnable { check() }
     private val watchInput = Runnable { watchInput() }
@@ -92,9 +101,18 @@ class OverlayService : Service() {
                     if (req.isForMainFrame) failed()
                 }
 
-                // the page never goes anywhere else
-                override fun shouldOverrideUrlLoading(view: WebView, req: WebResourceRequest) = true
+                // the page never goes anywhere else; reloading itself (the PC app restarted, maybe updated)
+                // it may: blocked, it would stop and show nothing until the TV app restarts
+                override fun shouldOverrideUrlLoading(view: WebView, req: WebResourceRequest) = req.url.toString() != url
             }
+            // the page says it's alive on every answer from the PC: one that went quiet is loaded again
+            w.addJavascriptInterface(object {
+                @JavascriptInterface
+                fun alive() {
+                    aliveAt = SystemClock.elapsedRealtime()
+                    pinged = true
+                }
+            }, "VITTV")
             val lp = WindowManager.LayoutParams(
                 WindowManager.LayoutParams.MATCH_PARENT,
                 WindowManager.LayoutParams.MATCH_PARENT,
@@ -126,7 +144,12 @@ class OverlayService : Service() {
             val s = Pc.ask(pc, token, 2000, 4000)
             main.post {
                 if (u != url) return@post
-                if (s == Pc.State.OK || s == Pc.State.OVERLAYS_OFF) web?.loadUrl(u) else failed()
+                if (s == Pc.State.OK || s == Pc.State.OVERLAYS_OFF) {
+                    aliveAt = SystemClock.elapsedRealtime()
+                    web?.loadUrl(u)
+                } else {
+                    failed()
+                }
             }
         }.start()
     }
@@ -166,6 +189,14 @@ class OverlayService : Service() {
                     return@post
                 }
                 unreachable = if (s == Pc.State.UNREACHABLE) unreachable + 1 else 0
+                // The PC answers, but the page has gone quiet (it stopped asking it): load it again. Only
+                // while it's on screen (a hidden page may be paused) and once it has said it's alive (a PC
+                // app from before that never does).
+                val quiet = SystemClock.elapsedRealtime() - aliveAt > QUIET_MS
+                if ((s == Pc.State.OK || s == Pc.State.OVERLAYS_OFF) && pinged && quiet && web?.visibility == View.VISIBLE) {
+                    pinged = false
+                    load()
+                }
                 if (unreachable >= 3 && !finding) findPc(pc, token)
                 main.postDelayed(check, CHECK_MS)
             }
@@ -215,6 +246,9 @@ class OverlayService : Service() {
 
         /** how often the PC is asked how it is */
         private const val CHECK_MS = 10_000L
+
+        /** a page on screen that hasn't asked the PC for this long is loaded again */
+        private const val QUIET_MS = 20_000L
 
         /** how often the input on screen is looked at */
         private const val INPUT_MS = 400L
