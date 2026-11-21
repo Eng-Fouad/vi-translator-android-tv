@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">Введіть цей код у VI Translator на ПК</string>
-    <string name="where_on_pc">На ПК: Показ на › Підключити телевізор</string>
+    <string name="enter_code">Введіть цей код у VI Translator на ПК або телефоні</string>
+    <string name="where_on_pc">На ПК або телефоні: Показ на › Підключити телевізор</string>
     <string name="this_tv">Цей телевізор: %1$s</string>
     <string name="connected_to">Підключено до %1$s</string>
     <string name="looking_for">Пошук %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">На телевізорі немає такого налаштування? Дозвольте один раз із комп\'ютера: %1$s</string>
     <string name="no_settings_page">На цьому телевізорі немає сторінки для цього налаштування. Дозвольте один раз із комп’ютера через adb:</string>
     <string name="pair_channel">Підключення</string>
-    <string name="pair_notify">Очікування, поки VI Translator на ПК підключить цей телевізор</string>
+    <string name="pair_notify">Очікування, поки VI Translator на ПК або телефоні підключить цей телевізор</string>
     <string name="notify_channel">Накладання</string>
     <string name="notify_text">Переклади показуються поверх зображення телевізора</string>
     <string name="webview_old">Веб-рушій цього телевізора застарий, щоб малювати переклади. Оновіть «Android System WebView» у Google Play.</string>

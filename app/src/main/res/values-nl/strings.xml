@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">Voer deze code in bij VI Translator op je pc</string>
-    <string name="where_on_pc">Op de pc: Tonen op › Tv koppelen</string>
+    <string name="enter_code">Voer deze code in bij VI Translator op je pc of telefoon</string>
+    <string name="where_on_pc">Op de pc of telefoon: Tonen op › Tv koppelen</string>
     <string name="this_tv">Deze tv: %1$s</string>
     <string name="connected_to">Gekoppeld aan %1$s</string>
     <string name="looking_for">%1$s zoeken…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">Heeft de tv deze instelling niet? Sta het één keer toe vanaf een computer: %1$s</string>
     <string name="no_settings_page">Deze tv heeft geen pagina voor deze instelling. Sta het één keer toe vanaf een computer, met adb:</string>
     <string name="pair_channel">Koppelen</string>
-    <string name="pair_notify">Wachten tot VI Translator op je pc deze tv koppelt</string>
+    <string name="pair_notify">Wachten tot VI Translator op je pc of telefoon deze tv koppelt</string>
     <string name="notify_channel">Overlay</string>
     <string name="notify_text">De vertalingen worden over het tv-beeld getoond</string>
     <string name="webview_old">De webengine van deze tv is te oud om de vertalingen te tekenen. Werk \'Android System WebView\' bij via Google Play.</string>

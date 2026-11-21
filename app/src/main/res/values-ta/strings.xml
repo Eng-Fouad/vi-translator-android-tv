@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">உங்கள் கணினியில் VI Translator-இல் இந்தக் குறியீட்டை உள்ளிடவும்</string>
-    <string name="where_on_pc">கணினியில்: காட்டும் இடம் › டிவியை இணை</string>
+    <string name="enter_code">உங்கள் கணினி அல்லது ஃபோனில் VI Translator-இல் இந்தக் குறியீட்டை உள்ளிடவும்</string>
+    <string name="where_on_pc">கணினி அல்லது ஃபோனில்: காட்டும் இடம் › டிவியை இணை</string>
     <string name="this_tv">இந்த டிவி: %1$s</string>
     <string name="connected_to">%1$s உடன் இணைந்தது</string>
     <string name="looking_for">%1$s தேடப்படுகிறது…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">டிவியில் இந்த அமைப்பு இல்லையா? ஒரு கணினியிலிருந்து ஒருமுறை அனுமதிக்கவும்: %1$s</string>
     <string name="no_settings_page">இந்த டிவியில் இந்த அமைப்புக்கான பக்கம் இல்லை. ஒரு கணினியிலிருந்து adb மூலம் ஒருமுறை அனுமதிக்கவும்:</string>
     <string name="pair_channel">இணைப்பு</string>
-    <string name="pair_notify">உங்கள் கணினியின் VI Translator இந்த டிவியை இணைக்கக் காத்திருக்கிறது</string>
+    <string name="pair_notify">உங்கள் கணினி அல்லது ஃபோனின் VI Translator இந்த டிவியை இணைக்கக் காத்திருக்கிறது</string>
     <string name="notify_channel">மேலடுக்கு</string>
     <string name="notify_text">டிவி படத்தின் மேல் மொழிபெயர்ப்புகள் காட்டப்படுகின்றன</string>
     <string name="webview_old">இந்த டிவியின் வலை இயந்திரம் மொழிபெயர்ப்புகளை வரைய மிகவும் பழையது. Google Play-இலிருந்து \"Android System WebView\"-ஐப் புதுப்பிக்கவும்.</string>

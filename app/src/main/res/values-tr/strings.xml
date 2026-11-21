@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">Bu kodu bilgisayarınızdaki VI Translator\'a girin</string>
-    <string name="where_on_pc">Bilgisayarda: Şurada göster › Televizyon bağla</string>
+    <string name="enter_code">Bu kodu bilgisayarınızdaki veya telefonunuzdaki VI Translator\'a girin</string>
+    <string name="where_on_pc">Bilgisayarda veya telefonda: Şurada göster › Televizyon bağla</string>
     <string name="this_tv">Bu televizyon: %1$s</string>
     <string name="connected_to">%1$s cihazına bağlandı</string>
     <string name="looking_for">%1$s aranıyor…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">Televizyonda bu ayar yok mu? Bir bilgisayardan bir kez izin verin: %1$s</string>
     <string name="no_settings_page">Bu televizyonda bu ayarın sayfası yok. Bir bilgisayardan adb ile bir kez izin verin:</string>
     <string name="pair_channel">Bağlanma</string>
-    <string name="pair_notify">Bilgisayarınızdaki VI Translator\'ın bu televizyonu bağlaması bekleniyor</string>
+    <string name="pair_notify">Bilgisayarınızdaki veya telefonunuzdaki VI Translator\'ın bu televizyonu bağlaması bekleniyor</string>
     <string name="notify_channel">Katman</string>
     <string name="notify_text">Çeviriler televizyon görüntüsünün üzerinde gösteriliyor</string>
     <string name="webview_old">Bu televizyonun web motoru çevirileri çizmek için çok eski. \"Android System WebView\"ı Google Play\'den güncelleyin.</string>

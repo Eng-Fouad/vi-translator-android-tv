@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">PC の VI Translator にこのコードを入力してください</string>
-    <string name="where_on_pc">PC で: 表示先 › テレビを接続</string>
+    <string name="enter_code">PC またはスマートフォンの VI Translator にこのコードを入力してください</string>
+    <string name="where_on_pc">PC またはスマートフォンで: 表示先 › テレビを接続</string>
     <string name="this_tv">このテレビ: %1$s</string>
     <string name="connected_to">%1$s に接続しました</string>
     <string name="looking_for">%1$s を探しています…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">この設定がテレビにありませんか？ パソコンから一度だけ許可してください: %1$s</string>
     <string name="no_settings_page">このテレビにはこの設定のページがありません。パソコンから adb で一度だけ許可してください：</string>
     <string name="pair_channel">接続</string>
-    <string name="pair_notify">PC の VI Translator がこのテレビを接続するのを待っています</string>
+    <string name="pair_notify">PC またはスマートフォンの VI Translator がこのテレビを接続するのを待っています</string>
     <string name="notify_channel">オーバーレイ</string>
     <string name="notify_text">テレビの画面の上に翻訳を表示中</string>
     <string name="webview_old">このテレビのウェブエンジンは古すぎて翻訳を表示できません。Google Play で「Android System WebView」を更新してください。</string>

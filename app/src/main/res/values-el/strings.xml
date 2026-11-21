@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">Πληκτρολογήστε αυτόν τον κωδικό στο VI Translator στον υπολογιστή σας</string>
-    <string name="where_on_pc">Στον υπολογιστή: Προβολή σε › Σύνδεση τηλεόρασης</string>
+    <string name="enter_code">Πληκτρολογήστε αυτόν τον κωδικό στο VI Translator στον υπολογιστή ή στο κινητό σας</string>
+    <string name="where_on_pc">Στον υπολογιστή ή στο κινητό: Προβολή σε › Σύνδεση τηλεόρασης</string>
     <string name="this_tv">Αυτή η τηλεόραση: %1$s</string>
     <string name="connected_to">Συνδέθηκε με %1$s</string>
     <string name="looking_for">Αναζήτηση %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">Δεν υπάρχει αυτή η ρύθμιση στην τηλεόραση; Επιτρέψτε την μία φορά από υπολογιστή: %1$s</string>
     <string name="no_settings_page">Αυτή η τηλεόραση δεν έχει σελίδα για αυτή τη ρύθμιση. Επιτρέψτε την μία φορά από υπολογιστή, με adb:</string>
     <string name="pair_channel">Σύνδεση</string>
-    <string name="pair_notify">Αναμονή για το VI Translator στον υπολογιστή σας να συνδέσει αυτήν την τηλεόραση</string>
+    <string name="pair_notify">Αναμονή για το VI Translator στον υπολογιστή ή στο κινητό σας να συνδέσει αυτήν την τηλεόραση</string>
     <string name="notify_channel">Επικάλυψη</string>
     <string name="notify_text">Οι μεταφράσεις εμφανίζονται πάνω από την εικόνα της τηλεόρασης</string>
     <string name="webview_old">Η μηχανή ιστού αυτής της τηλεόρασης είναι πολύ παλιά για να σχεδιάσει τις μεταφράσεις. Ενημερώστε το «Android System WebView» από το Google Play.</string>

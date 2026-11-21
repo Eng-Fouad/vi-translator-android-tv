@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">اپنے پی سی پر VI Translator میں یہ کوڈ درج کریں</string>
-    <string name="where_on_pc">پی سی پر: یہاں دکھائیں › ٹی وی جوڑیں</string>
+    <string name="enter_code">اپنے پی سی یا فون پر VI Translator میں یہ کوڈ درج کریں</string>
+    <string name="where_on_pc">پی سی یا فون پر: یہاں دکھائیں › ٹی وی جوڑیں</string>
     <string name="this_tv">یہ ٹی وی: %1$s</string>
     <string name="connected_to">%1$s سے جڑا ہے</string>
     <string name="looking_for">%1$s تلاش کیا جا رہا ہے…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">ٹی وی میں یہ ترتیب نہیں؟ کمپیوٹر سے ایک بار اجازت دیں: %1$s</string>
     <string name="no_settings_page">اس ٹی وی میں اس ترتیب کا کوئی صفحہ نہیں ہے۔ کسی کمپیوٹر سے adb کے ذریعے ایک بار اجازت دیں:</string>
     <string name="pair_channel">جوڑنا</string>
-    <string name="pair_notify">آپ کے پی سی پر VI Translator کے اس ٹی وی کو جوڑنے کا انتظار</string>
+    <string name="pair_notify">آپ کے پی سی یا فون پر VI Translator کے اس ٹی وی کو جوڑنے کا انتظار</string>
     <string name="notify_channel">اوورلے</string>
     <string name="notify_text">ٹی وی کی تصویر کے اوپر ترجمے دکھائے جا رہے ہیں</string>
     <string name="webview_old">اس ٹی وی کا ویب انجن ترجمے دکھانے کے لیے بہت پرانا ہے۔ Google Play سے \"Android System WebView\" اپ ڈیٹ کریں۔</string>

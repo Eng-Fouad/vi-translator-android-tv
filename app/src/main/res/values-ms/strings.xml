@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">Masukkan kod ini dalam VI Translator pada PC anda</string>
-    <string name="where_on_pc">Pada PC: Papar pada › Sambungkan TV</string>
+    <string name="enter_code">Masukkan kod ini dalam VI Translator pada PC atau telefon anda</string>
+    <string name="where_on_pc">Pada PC atau telefon: Papar pada › Sambungkan TV</string>
     <string name="this_tv">TV ini: %1$s</string>
     <string name="connected_to">Disambungkan ke %1$s</string>
     <string name="looking_for">Mencari %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">TV tiada tetapan ini? Benarkannya sekali daripada komputer: %1$s</string>
     <string name="no_settings_page">TV ini tiada halaman untuk tetapan ini. Benarkan sekali daripada komputer, dengan adb:</string>
     <string name="pair_channel">Menyambung</string>
-    <string name="pair_notify">Menunggu VI Translator pada PC anda menyambungkan TV ini</string>
+    <string name="pair_notify">Menunggu VI Translator pada PC atau telefon anda menyambungkan TV ini</string>
     <string name="notify_channel">Tindanan</string>
     <string name="notify_text">Menunjukkan terjemahan di atas gambar TV</string>
     <string name="webview_old">Enjin web TV ini terlalu lama untuk melukis terjemahan. Kemas kini \"Android System WebView\" daripada Google Play.</string>

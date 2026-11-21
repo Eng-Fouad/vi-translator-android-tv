@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">在电脑上的 VI Translator 中输入此代码</string>
-    <string name="where_on_pc">在电脑上: 显示位置 › 连接电视</string>
+    <string name="enter_code">在电脑或手机上的 VI Translator 中输入此代码</string>
+    <string name="where_on_pc">在电脑或手机上: 显示位置 › 连接电视</string>
     <string name="this_tv">这台电视：%1$s</string>
     <string name="connected_to">已连接到 %1$s</string>
     <string name="looking_for">正在查找 %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">电视上没有此设置？请从电脑上允许一次：%1$s</string>
     <string name="no_settings_page">这台电视没有此设置的页面。请用电脑通过 adb 允许一次：</string>
     <string name="pair_channel">连接</string>
-    <string name="pair_notify">正在等待电脑上的 VI Translator 连接这台电视</string>
+    <string name="pair_notify">正在等待电脑或手机上的 VI Translator 连接这台电视</string>
     <string name="notify_channel">叠加层</string>
     <string name="notify_text">正在电视画面上方显示翻译</string>
     <string name="webview_old">这台电视的网页引擎太旧，无法绘制翻译。请在 Google Play 中更新“Android System WebView”。</string>

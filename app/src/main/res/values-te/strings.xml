@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">మీ PCలో VI Translatorలో ఈ కోడ్‌ను నమోదు చేయండి</string>
-    <string name="where_on_pc">PCలో: చూపే చోటు › టీవీని కనెక్ట్ చేయండి</string>
+    <string name="enter_code">మీ PC లేదా ఫోన్‌లో VI Translatorలో ఈ కోడ్‌ను నమోదు చేయండి</string>
+    <string name="where_on_pc">PC లేదా ఫోన్‌లో: చూపే చోటు › టీవీని కనెక్ట్ చేయండి</string>
     <string name="this_tv">ఈ టీవీ: %1$s</string>
     <string name="connected_to">%1$sకి కనెక్ట్ అయింది</string>
     <string name="looking_for">%1$s కోసం వెతుకుతోంది…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">టీవీలో ఈ సెట్టింగ్ లేదా? కంప్యూటర్ నుండి ఒకసారి అనుమతించండి: %1$s</string>
     <string name="no_settings_page">ఈ టీవీలో ఈ సెట్టింగ్‌కు పేజీ లేదు. ఒక కంప్యూటర్ నుండి adb ద్వారా ఒకసారి అనుమతించండి:</string>
     <string name="pair_channel">కనెక్ట్ చేయడం</string>
-    <string name="pair_notify">మీ PCలోని VI Translator ఈ టీవీని కనెక్ట్ చేసే వరకు వేచి ఉంది</string>
+    <string name="pair_notify">మీ PC లేదా ఫోన్‌లోని VI Translator ఈ టీవీని కనెక్ట్ చేసే వరకు వేచి ఉంది</string>
     <string name="notify_channel">ఓవర్‌లే</string>
     <string name="notify_text">టీవీ చిత్రం పైన అనువాదాలను చూపిస్తోంది</string>
     <string name="webview_old">ఈ టీవీ వెబ్ ఇంజిన్ అనువాదాలను చూపడానికి చాలా పాతది. Google Play నుండి \"Android System WebView\"ని అప్‌డేట్ చేయండి.</string>

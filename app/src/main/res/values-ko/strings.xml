@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">PC의 VI Translator에 이 코드를 입력하세요</string>
-    <string name="where_on_pc">PC에서: 표시 위치 › TV 연결</string>
+    <string name="enter_code">PC 또는 휴대폰의 VI Translator에 이 코드를 입력하세요</string>
+    <string name="where_on_pc">PC 또는 휴대폰에서: 표시 위치 › TV 연결</string>
     <string name="this_tv">이 TV: %1$s</string>
     <string name="connected_to">%1$s에 연결됨</string>
     <string name="looking_for">%1$s 찾는 중…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">TV에 이 설정이 없나요? 컴퓨터에서 한 번 허용하세요: %1$s</string>
     <string name="no_settings_page">이 TV에는 이 설정 페이지가 없습니다. 컴퓨터에서 adb로 한 번 허용하세요:</string>
     <string name="pair_channel">연결</string>
-    <string name="pair_notify">PC의 VI Translator가 이 TV를 연결하기를 기다리는 중</string>
+    <string name="pair_notify">PC 또는 휴대폰의 VI Translator가 이 TV를 연결하기를 기다리는 중</string>
     <string name="notify_channel">오버레이</string>
     <string name="notify_text">TV 화면 위에 번역을 표시하는 중</string>
     <string name="webview_old">이 TV의 웹 엔진이 너무 오래되어 번역을 표시할 수 없습니다. Google Play에서 \'Android System WebView\'를 업데이트하세요.</string>

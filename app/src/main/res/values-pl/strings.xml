@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">Wpisz ten kod w VI Translator na komputerze</string>
-    <string name="where_on_pc">Na komputerze: Pokaż na › Połącz telewizor</string>
+    <string name="enter_code">Wpisz ten kod w VI Translator na komputerze lub telefonie</string>
+    <string name="where_on_pc">Na komputerze lub telefonie: Pokaż na › Połącz telewizor</string>
     <string name="this_tv">Ten telewizor: %1$s</string>
     <string name="connected_to">Połączono z %1$s</string>
     <string name="looking_for">Szukanie %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">Telewizor nie ma tego ustawienia? Zezwól raz z komputera: %1$s</string>
     <string name="no_settings_page">Ten telewizor nie ma strony dla tego ustawienia. Zezwól raz z komputera, za pomocą adb:</string>
     <string name="pair_channel">Łączenie</string>
-    <string name="pair_notify">Czekanie, aż VI Translator na komputerze połączy ten telewizor</string>
+    <string name="pair_notify">Czekanie, aż VI Translator na komputerze lub telefonie połączy ten telewizor</string>
     <string name="notify_channel">Nakładka</string>
     <string name="notify_text">Tłumaczenia są pokazywane na obrazie telewizora</string>
     <string name="webview_old">Silnik WWW tego telewizora jest zbyt stary, by rysować tłumaczenia. Zaktualizuj „Android System WebView” w Google Play.</string>

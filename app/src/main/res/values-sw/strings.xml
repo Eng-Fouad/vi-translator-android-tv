@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">Weka msimbo huu katika VI Translator kwenye kompyuta yako</string>
-    <string name="where_on_pc">Kwenye kompyuta: Onyesha kwenye › Unganisha TV</string>
+    <string name="enter_code">Weka msimbo huu katika VI Translator kwenye kompyuta au simu yako</string>
+    <string name="where_on_pc">Kwenye kompyuta au simu: Onyesha kwenye › Unganisha TV</string>
     <string name="this_tv">TV hii: %1$s</string>
     <string name="connected_to">Imeunganishwa na %1$s</string>
     <string name="looking_for">Inatafuta %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">TV haina mpangilio huu? Uruhusu mara moja kutoka kwa kompyuta: %1$s</string>
     <string name="no_settings_page">TV hii haina ukurasa wa mpangilio huu. Uruhusu mara moja kutoka kwa kompyuta, kwa adb:</string>
     <string name="pair_channel">Kuunganisha</string>
-    <string name="pair_notify">Inasubiri VI Translator kwenye kompyuta yako iunganishe TV hii</string>
+    <string name="pair_notify">Inasubiri VI Translator kwenye kompyuta au simu yako iunganishe TV hii</string>
     <string name="notify_channel">Tabaka</string>
     <string name="notify_text">Inaonyesha tafsiri juu ya picha ya TV</string>
     <string name="webview_old">Injini ya wavuti ya TV hii ni ya zamani mno kuchora tafsiri. Sasisha \"Android System WebView\" kutoka Google Play.</string>

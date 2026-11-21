@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">أدخل هذا الرمز في VI Translator على جهاز الكمبيوتر</string>
-    <string name="where_on_pc">على الكمبيوتر: العرض على › ربط تلفاز</string>
+    <string name="enter_code">أدخل هذا الرمز في VI Translator على الكمبيوتر أو الهاتف</string>
+    <string name="where_on_pc">على الكمبيوتر أو الهاتف: العرض على › ربط تلفاز</string>
     <string name="this_tv">هذا التلفاز: %1$s</string>
     <string name="connected_to">متصل بـ %1$s</string>
     <string name="looking_for">جارٍ البحث عن %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">لا يوجد هذا الإعداد في التلفاز؟ اسمح به مرة واحدة من كمبيوتر: %1$s</string>
     <string name="no_settings_page">لا توجد في هذا التلفاز صفحة لهذا الإعداد. اسمح به مرة واحدة من كمبيوتر باستخدام adb:</string>
     <string name="pair_channel">الربط</string>
-    <string name="pair_notify">بانتظار أن يربط VI Translator على الكمبيوتر هذا التلفاز</string>
+    <string name="pair_notify">بانتظار أن يربط VI Translator على الكمبيوتر أو الهاتف هذا التلفاز</string>
     <string name="notify_channel">الطبقة</string>
     <string name="notify_text">تُعرض الترجمات فوق صورة التلفاز</string>
     <string name="webview_old">محرك الويب في هذا التلفاز أقدم من أن يرسم الترجمات. حدّث «Android System WebView» من Google Play.</string>

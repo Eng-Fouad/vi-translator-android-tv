@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">ใส่รหัสนี้ใน VI Translator บนพีซีของคุณ</string>
-    <string name="where_on_pc">บนพีซี: แสดงบน › เชื่อมต่อทีวี</string>
+    <string name="enter_code">ใส่รหัสนี้ใน VI Translator บนพีซีหรือโทรศัพท์ของคุณ</string>
+    <string name="where_on_pc">บนพีซีหรือโทรศัพท์: แสดงบน › เชื่อมต่อทีวี</string>
     <string name="this_tv">ทีวีเครื่องนี้: %1$s</string>
     <string name="connected_to">เชื่อมต่อกับ %1$s แล้ว</string>
     <string name="looking_for">กำลังค้นหา %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">ทีวีไม่มีการตั้งค่านี้ใช่ไหม อนุญาตครั้งเดียวจากคอมพิวเตอร์: %1$s</string>
     <string name="no_settings_page">ทีวีเครื่องนี้ไม่มีหน้าสำหรับการตั้งค่านี้ อนุญาตหนึ่งครั้งจากคอมพิวเตอร์ด้วย adb:</string>
     <string name="pair_channel">การเชื่อมต่อ</string>
-    <string name="pair_notify">กำลังรอให้ VI Translator บนพีซีของคุณเชื่อมต่อทีวีเครื่องนี้</string>
+    <string name="pair_notify">กำลังรอให้ VI Translator บนพีซีหรือโทรศัพท์ของคุณเชื่อมต่อทีวีเครื่องนี้</string>
     <string name="notify_channel">โอเวอร์เลย์</string>
     <string name="notify_text">กำลังแสดงคำแปลบนภาพทีวี</string>
     <string name="webview_old">เว็บเอนจินของทีวีเครื่องนี้เก่าเกินกว่าจะแสดงคำแปลได้ อัปเดต \"Android System WebView\" จาก Google Play</string>

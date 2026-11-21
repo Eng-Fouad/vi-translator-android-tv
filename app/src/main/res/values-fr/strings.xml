@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">Saisissez ce code dans VI Translator sur votre PC</string>
-    <string name="where_on_pc">Sur le PC: Afficher sur › Connecter une TV</string>
+    <string name="enter_code">Saisissez ce code dans VI Translator sur votre PC ou téléphone</string>
+    <string name="where_on_pc">Sur le PC ou le téléphone: Afficher sur › Connecter une TV</string>
     <string name="this_tv">Cette TV : %1$s</string>
     <string name="connected_to">Connecté à %1$s</string>
     <string name="looking_for">Recherche de %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">Ce réglage n\'existe pas sur la TV ? Autorisez-le une fois depuis un ordinateur : %1$s</string>
     <string name="no_settings_page">Ce téléviseur n\'a pas de page pour ce réglage. Autorisez-le une fois depuis un ordinateur, avec adb :</string>
     <string name="pair_channel">Connexion</string>
-    <string name="pair_notify">En attente de VI Translator sur votre PC pour connecter cette TV</string>
+    <string name="pair_notify">En attente de VI Translator sur votre PC ou téléphone pour connecter cette TV</string>
     <string name="notify_channel">Superposition</string>
     <string name="notify_text">Traductions affichées par-dessus l\'image de la TV</string>
     <string name="webview_old">Le moteur web de cette TV est trop ancien pour dessiner les traductions. Mettez à jour « Android System WebView » depuis Google Play.</string>

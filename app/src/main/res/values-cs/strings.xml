@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">Zadejte tento kód ve VI Translator na počítači</string>
-    <string name="where_on_pc">V počítači: Zobrazit na › Připojit televizi</string>
+    <string name="enter_code">Zadejte tento kód ve VI Translator na počítači nebo telefonu</string>
+    <string name="where_on_pc">V počítači nebo telefonu: Zobrazit na › Připojit televizi</string>
     <string name="this_tv">Tato televize: %1$s</string>
     <string name="connected_to">Připojeno k %1$s</string>
     <string name="looking_for">Hledá se %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">Televize toto nastavení nemá? Povolte ho jednou z počítače: %1$s</string>
     <string name="no_settings_page">Tato televize nemá stránku pro toto nastavení. Povolte ho jednou z počítače pomocí adb:</string>
     <string name="pair_channel">Připojování</string>
-    <string name="pair_notify">Čeká se, až VI Translator v počítači připojí tuto televizi</string>
+    <string name="pair_notify">Čeká se, až VI Translator v počítači nebo telefonu připojí tuto televizi</string>
     <string name="notify_channel">Překryv</string>
     <string name="notify_text">Překlady se zobrazují přes obraz televize</string>
     <string name="webview_old">Webový modul této televize je na vykreslení překladů příliš starý. Aktualizujte „Android System WebView“ z Google Play.</string>

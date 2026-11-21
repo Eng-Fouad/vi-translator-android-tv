@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">Introdu acest cod în VI Translator pe PC</string>
-    <string name="where_on_pc">Pe PC: Afișare pe › Conectează un televizor</string>
+    <string name="enter_code">Introdu acest cod în VI Translator pe PC sau telefon</string>
+    <string name="where_on_pc">Pe PC sau telefon: Afișare pe › Conectează un televizor</string>
     <string name="this_tv">Acest televizor: %1$s</string>
     <string name="connected_to">Conectat la %1$s</string>
     <string name="looking_for">Se caută %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">Televizorul nu are această setare? Permite-o o dată de pe un computer: %1$s</string>
     <string name="no_settings_page">Acest televizor nu are o pagină pentru această setare. Permite-o o dată de pe un computer, cu adb:</string>
     <string name="pair_channel">Conectare</string>
-    <string name="pair_notify">Se așteaptă ca VI Translator de pe PC să conecteze acest televizor</string>
+    <string name="pair_notify">Se așteaptă ca VI Translator de pe PC sau telefon să conecteze acest televizor</string>
     <string name="notify_channel">Suprapunere</string>
     <string name="notify_text">Traducerile sunt afișate peste imaginea televizorului</string>
     <string name="webview_old">Motorul web al acestui televizor este prea vechi pentru a desena traducerile. Actualizează „Android System WebView” din Google Play.</string>

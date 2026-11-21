@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enter_code">Gib diesen Code in VI Translator auf deinem PC ein</string>
-    <string name="where_on_pc">Auf dem PC: Anzeigen auf › Fernseher verbinden</string>
+    <string name="enter_code">Gib diesen Code in VI Translator auf deinem PC oder Handy ein</string>
+    <string name="where_on_pc">Auf dem PC oder Handy: Anzeigen auf › Fernseher verbinden</string>
     <string name="this_tv">Dieser Fernseher: %1$s</string>
     <string name="connected_to">Verbunden mit %1$s</string>
     <string name="looking_for">Suche %1$s…</string>
@@ -15,7 +15,7 @@
     <string name="adb_hint">Diese Einstellung fehlt auf dem Fernseher? Erlaube sie einmal von einem Computer aus: %1$s</string>
     <string name="no_settings_page">Dieser Fernseher hat keine Seite für diese Einstellung. Erlaube es einmal von einem Computer aus, mit adb:</string>
     <string name="pair_channel">Verbinden</string>
-    <string name="pair_notify">Wartet darauf, dass VI Translator auf deinem PC diesen Fernseher verbindet</string>
+    <string name="pair_notify">Wartet darauf, dass VI Translator auf deinem PC oder Handy diesen Fernseher verbindet</string>
     <string name="notify_channel">Overlay</string>
     <string name="notify_text">Die Übersetzungen werden über dem Fernsehbild gezeigt</string>
     <string name="webview_old">Die Web-Engine dieses Fernsehers ist zu alt, um die Übersetzungen zu zeichnen. Aktualisiere „Android System WebView“ über Google Play.</string>

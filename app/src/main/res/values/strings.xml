@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">VI Translator</string>
-    <string name="enter_code">Enter this code in VI Translator on your PC</string>
-    <string name="where_on_pc">On the PC: Show on › Connect a TV</string>
+    <string name="enter_code">Enter this code in VI Translator on your PC or phone</string>
+    <string name="where_on_pc">On the PC or phone: Show on › Connect a TV</string>
     <string name="this_tv">This TV: %1$s</string>
     <string name="connected_to">Connected to %1$s</string>
     <string name="looking_for">Looking for %1$s…</string>
@@ -16,7 +16,7 @@
     <string name="adb_hint">No such setting on this TV? Allow it once from a computer: %1$s</string>
     <string name="no_settings_page">This TV has no page for this setting. Allow it once from a computer, with adb:</string>
     <string name="pair_channel">Connecting</string>
-    <string name="pair_notify">Waiting for VI Translator on your PC to connect this TV</string>
+    <string name="pair_notify">Waiting for VI Translator on your PC or phone to connect this TV</string>
     <string name="notify_channel">Overlay</string>
     <string name="notify_text">Showing the translations over the TV picture</string>
     <string name="webview_old">This TV\'s web engine is too old to draw the translations. Update \"Android System WebView\" from Google Play.</string>

@@ -22,6 +22,10 @@ Google TV models), with the console plugged into the TV.
 3. This app shows the translations over the TV picture, where they would be on the game picture.
    Only the text crosses your home network, so it shows as fast as on the PC.
 
+Or with the VI Translator phone app instead of the PC: the phone plays the PS5 or the Xbox over
+Remote Play (no capture card), reads the subtitles there, and this app shows the translations over
+the console's picture on the TV, the same way.
+
 The overlay never takes the remote: it keeps working the TV and the game under it.
 
 ## Setup
@@ -33,7 +37,7 @@ The overlay never takes the remote: it keeps working the TV and the game under i
    install it with `adb install`.
 2. **Open it:** it shows a 6-digit code. It keeps waiting for 10 minutes after you leave it, so
    you can switch the TV to the PC's input if the PC is on the same TV.
-3. **On the PC:** in VI Translator, *Show on* tab, *Connect a TV*. Type the code and
+3. **On the PC or the phone:** in VI Translator, *Show on* tab, *Connect a TV*. Type the code and
    press *Connect*. Sharing on the home network is turned on if it was off.
 4. **Allow it to draw over other apps** if the app asks. If the TV has no such setting (some TCL
    models hide it), allow it once from a computer, with developer options and USB or network
@@ -49,17 +53,17 @@ Once connected, the app shows the connection and two buttons:
 - **Show on:** all inputs, or one HDMI input only (the console's): the overlay then hides on the
   home screen, in apps and on other inputs. Offered on TVs that tell apps which input is on screen
   (TCL); elsewhere the overlay shows everywhere.
-- **Disconnect:** the TV forgets the PC and shows a new code. Removing the TV in VI Translator on
-  the PC does the same.
+- **Disconnect:** the TV forgets the PC (or phone) and shows a new code. Removing the TV in VI
+  Translator on the PC or phone does the same.
 
-The overlay comes back by itself when the TV turns on, and finds the PC again if the router gives
-it a new address.
+The overlay comes back by itself when the TV turns on, and finds the PC or phone again if the
+router gives it a new address.
 
 ## Tips
 
 - Show the game full screen with no zoom or overscan (picture size *Auto* or *Just scan*), so the
-  translations land where the PC expects.
-- The text style, the language and what is read are all set in VI Translator on the PC.
+  translations land where the PC or phone expects.
+- The text style, the language and what is read are all set in VI Translator on the PC or phone.
 
 ## Build
 
