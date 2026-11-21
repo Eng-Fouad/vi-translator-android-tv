@@ -24,6 +24,25 @@ android {
         versionName = appVersion
     }
 
+    // Two builds of the same app (the same version, key and package name):
+    //   github: the APK on GitHub Releases, which updates itself from them (Updater)
+    //   play:   the app bundle for Google Play, which Play updates; Play forbids an app that updates
+    //           itself, and REQUEST_INSTALL_PACKAGES, so this one has neither (src/play/AndroidManifest.xml)
+    buildFeatures {
+        buildConfig = true
+    }
+    flavorDimensions += "store"
+    productFlavors {
+        create("github") {
+            dimension = "store"
+            buildConfigField("boolean", "SELF_UPDATE", "true")
+        }
+        create("play") {
+            dimension = "store"
+            buildConfigField("boolean", "SELF_UPDATE", "false")
+        }
+    }
+
     signingConfigs {
         if (releaseKeystore != null) {
             create("release") {

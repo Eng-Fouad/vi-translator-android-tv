@@ -74,6 +74,8 @@ object Updater {
 
     /** Look for a newer release in the background (at most every few hours); [found] runs on it. */
     fun check(ctx: Context, found: () -> Unit) {
+        // the Google Play build: Play updates it
+        if (!BuildConfig.SELF_UPDATE) return
         val app = ctx.applicationContext
         val prefs = app.getSharedPreferences("updates", Context.MODE_PRIVATE)
         val last = prefs.getLong("checked", 0)

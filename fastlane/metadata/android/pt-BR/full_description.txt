@@ -1,21 +1,24 @@
 O VI Translator mostra as legendas de um jogo traduzidas para o seu idioma, ao vivo, bem em cima do jogo na sua TV.
 
-Ele funciona junto com o VI Translator no seu PC (grátis, em vitranslator.app). O sinal do seu console passa por uma placa de captura até a TV. O PC lê as legendas pela placa de captura e as traduz, e este app exibe as traduções sobre a imagem da TV, no lugar certo. Só texto trafega pela sua rede doméstica, então as traduções aparecem tão rápido quanto no PC, e o jogo chega à sua TV com qualidade total e sem atraso extra.
+Ele funciona junto com o VI Translator no seu PC ou no seu celular (grátis, em vitranslator.app). Eles leem as legendas do jogo e as traduzem, e este app exibe as traduções sobre a imagem da TV, no lugar certo. Só texto trafega pela sua rede doméstica, então as traduções aparecem tão rápido quanto no PC, e o jogo chega à sua TV com qualidade total e sem atraso extra.
+
+Duas formas de jogar:
+• Com um PC: o sinal do seu console passa por uma placa de captura com passthrough HDMI até a TV, e o PC lê a cópia da imagem feita pela placa.
+• Com um celular Android, sem PC e sem placa de captura: o celular lê o seu PS5 ou Xbox pelo Remote Play, enquanto o console continua ligado à TV como sempre.
 
 • Traduções sobre o jogo, na própria TV
-• Pareamento com o PC por um código de 6 dígitos: sem conta
+• Pareamento com o PC ou celular por um código de 6 dígitos: sem conta
 • Aparece em todas as entradas ou só na entrada HDMI do console (em TVs que informam qual entrada está na tela)
 • Nunca toma o controle remoto: a TV e o jogo continuam funcionando por baixo das traduções
-• Abre sozinho quando a TV liga e reencontra o PC se o endereço dele mudar
+• Abre sozinho quando a TV liga e reencontra o seu PC ou celular se o endereço dele mudar
 • O app fala 33 idiomas
 
 O que você precisa:
 • Uma TV com Android TV ou Google TV
-• Um PC rodando o VI Translator, na mesma rede doméstica
-• Uma placa de captura com passthrough HDMI entre o console e a TV
+• O VI Translator em um PC ou em um celular Android, na mesma rede doméstica
 
-O estilo do texto, o idioma da tradução e o que é lido são definidos no VI Translator no PC. Configuração passo a passo: vitranslator.app
+O estilo do texto, o idioma da tradução e o que é lido são definidos no VI Translator no PC ou no celular. Configuração passo a passo: vitranslator.app
 
-Privacidade: o app se comunica apenas com o seu próprio PC, na sua rede doméstica, e não coleta nenhum dado.
+Privacidade: o app se comunica apenas com o seu próprio PC ou celular, na sua rede doméstica, e não coleta nenhum dado.
 
 O VI Translator é um projeto não oficial feito por fãs, sem afiliação nem endosso de nenhuma publicadora de jogos.

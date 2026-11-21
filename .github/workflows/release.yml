@@ -1,6 +1,7 @@
 # Pushing a tag vX.Y.Z releases version X.Y.Z of the app, attached to a GitHub Release:
 #   vi-translator-android-tv-X.Y.Z.apk  signed APK, to install directly (Downloader, adb)
-#   vi-translator-android-tv-X.Y.Z.aab  signed app bundle, to upload to Google Play (the key is Play's upload key)
+#   vi-translator-android-tv-X.Y.Z.aab  signed app bundle for Google Play, the "play" build: no self-update
+#                                       (the key is Play's upload key)
 #   vi-translator-android-tv-latest.apk the same APK without the version: .../releases/latest/download/vi-translator-android-tv-latest.apk
 #                                       always serves the newest one (the Downloader code points there)
 #
@@ -81,12 +82,12 @@ jobs:
           ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
-        run: ./gradlew --no-daemon assembleRelease bundleRelease lintRelease -Pversion="$VERSION"
+        run: ./gradlew --no-daemon assembleGithubRelease bundlePlayRelease lintGithubRelease lintPlayRelease -Pversion="$VERSION"
 
       - name: Check the signatures and name the files
         run: |
-          APK=app/build/outputs/apk/release/app-release.apk
-          AAB=app/build/outputs/bundle/release/app-release.aab
+          APK=app/build/outputs/apk/github/release/app-github-release.apk
+          AAB=app/build/outputs/bundle/playRelease/app-play-release.aab
           [ -f "$APK" ] || { echo "::error::no signed APK (is the keystore right?)"; ls -R app/build/outputs; exit 1; }
           [ -f "$AAB" ] || { echo "::error::no app bundle"; ls -R app/build/outputs; exit 1; }
           "$ANDROID_HOME"/build-tools/$(ls "$ANDROID_HOME"/build-tools | sort -V | tail -n1)/apksigner verify --print-certs "$APK"

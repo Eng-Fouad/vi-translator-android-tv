@@ -12,7 +12,9 @@ Everything for the Play Console listing is in this repository:
   - `featureGraphic.png` 1024×500
   - `tvBanner.png` 1280×720, the TV banner
   - `tvScreenshots/*.png` 1920×1080
-- **The app:** the `.aab` from the GitHub Release (`vi-translator-android-tv-X.Y.Z.aab`).
+- **The app:** the `.aab` from the GitHub Release (`vi-translator-android-tv-X.Y.Z.aab`). It is the `play`
+  build: no self-update and no `REQUEST_INSTALL_PACKAGES` (Play forbids both); Play updates it. The
+  GitHub APK is the `github` build, which updates itself from GitHub Releases.
 
 ## First-time setup
 
@@ -30,10 +32,10 @@ Everything for the Play Console listing is in this repository:
 | --- | --- |
 | Privacy policy | https://vitranslator.app/privacy/ |
 | Ads | No ads |
-| App access | All functionality needs the free PC app; see *Reviewer notes* below |
-| Content rating (IARC) | Category *Utility, Productivity, Communication or Other*; no violence, sexuality, language, gambling, user interaction or sharing of location; the app shows text sent from the user's own PC. Expected: Everyone / PEGI 3 |
+| App access | All functionality needs the free PC app or the Android phone app; see *Reviewer notes* below |
+| Content rating (IARC) | Category *Utility, Productivity, Communication or Other*; no violence, sexuality, language, gambling, user interaction or sharing of location; the app shows text sent from the user's own PC or phone. Expected: Everyone / PEGI 3 |
 | Target audience | 13 and over (it's a tool for console players; not aimed at children) |
-| Data safety | **No data collected, no data shared.** The app only talks to the user's own PC on the local network (pairing code, translated text); nothing is sent to the developer or third parties. Data isn't encrypted in transit on the LAN (plain HTTP to the user's own PC); users can't request deletion because nothing is stored off the device |
+| Data safety | **No data collected, no data shared.** The app only talks to the user's own PC or phone on the local network (pairing code, translated text); nothing is sent to the developer or third parties. Data isn't encrypted in transit on the LAN (plain HTTP to the user's own PC or phone); users can't request deletion because nothing is stored off the device |
 | Government app / financial / health / news | No |
 | Foreground service permissions | `FOREGROUND_SERVICE_SPECIAL_USE`, see below |
 
@@ -44,9 +46,9 @@ Both services declare `specialUse`. Text for the declaration:
 > The app shows live translated subtitles over the TV picture while the user plays a console game on
 > an HDMI input. The overlay service must keep running while another input or app is on screen,
 > because that is when the subtitles are needed; it draws a non-interactive overlay window and
-> receives the subtitle text from the user's own PC on the local network. A second service waits up
-> to 10 minutes for the user to pair the TV from the PC after leaving the app (the PC is often on
-> another input of the same TV). Both start only after the user opens the app, and show a
+> receives the subtitle text from the user's own PC or phone on the local network. A second service waits up
+> to 10 minutes for the user to pair the TV from the PC or phone after leaving the app (the PC is
+> often on another input of the same TV). Both start only after the user opens the app, and show a
 > notification.
 
 Attach a short video: open the app, pair from the PC, switch to the console's input, subtitles show.
@@ -60,7 +62,8 @@ the app's core feature. Say so in the description (it does) and in the reviewer 
 
 > VI Translator for Android TV shows translated subtitles over the TV picture. The subtitles come
 > from the free VI Translator app on a Windows, macOS or Linux PC on the same network
-> (https://github.com/vi-translator/vi-translator-desktop/releases). To test:
+> (https://github.com/vi-translator/vi-translator-desktop/releases), or from the VI Translator
+> Android phone app. To test:
 > 1. Open the app on the TV: it shows a 6-digit code.
 > 2. On the PC, start VI Translator, open *Show on → Connect a TV*, type the code, press *Connect*.
 > 3. In the PC app pick any source (a capture card, or *Screen* to read the PC's own screen) with English

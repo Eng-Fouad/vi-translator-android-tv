@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Google Play build: Play updates the app, so no self-update (see app/build.gradle.kts) -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" tools:node="remove" />
+
+    <application>
+        <receiver android:name="app.vitranslator.tv.UpdateReceiver" tools:node="remove" />
+    </application>
+</manifest>

@@ -1,21 +1,24 @@
 Ipinapakita ng VI Translator ang mga subtitle ng laro na isinalin sa wika mo, nang live, mismong sa ibabaw ng laro sa TV mo.
 
-Gumagana ito kasama ng VI Translator sa PC mo (libre, mula sa vitranslator.app). Dumadaan ang laro ng console mo sa isang capture card papunta sa TV. Binabasa ng PC ang mga subtitle mula sa capture card at isinasalin ang mga ito, at iginuguhit ng app na ito ang mga salin sa ibabaw ng larawan ng TV, kung saan sila nararapat. Text lang ang dumadaan sa home network mo, kaya kasimbilis ng sa PC lumalabas ang mga salin, at buong kalidad na nakakarating ang laro sa TV mo nang walang dagdag na delay.
+Gumagana ito kasama ng VI Translator sa PC o phone mo (libre, mula sa vitranslator.app). Binabasa nito ang mga subtitle ng laro at isinasalin ang mga ito, at iginuguhit ng app na ito ang mga salin sa ibabaw ng larawan ng TV, kung saan sila nararapat. Text lang ang dumadaan sa home network mo, kaya kasimbilis ng sa PC lumalabas ang mga salin, at buong kalidad na nakakarating ang laro sa TV mo nang walang dagdag na delay.
+
+Dalawang paraan ng paglalaro:
+• Gamit ang PC: dumadaan ang laro ng console mo sa isang capture card na may HDMI passthrough papunta sa TV, at binabasa ng PC ang kopya ng larawan na nasa card.
+• Gamit ang Android phone, walang PC at walang capture card: binabasa ng phone ang PS5 o Xbox mo sa pamamagitan ng Remote Play, habang nakasaksak pa rin ang console sa TV gaya ng dati.
 
 • Mga salin sa ibabaw ng laro, mismong sa TV
-• Kumokonekta sa PC mo gamit ang 6-digit na code: walang account
+• Kumokonekta sa PC o phone mo gamit ang 6-digit na code: walang account
 • Lumalabas sa lahat ng input, o sa HDMI input lang ng console mo (sa mga TV na nagsasabi kung aling input ang nasa screen)
 • Hindi kailanman inaagaw ang remote: gumagana pa rin ang TV at ang laro sa ilalim ng mga salin
-• Kusang nagsisimula ulit kapag binuksan ang TV, at hinahanap ulit ang PC kapag nagbago ang address nito
+• Kusang nagsisimula ulit kapag binuksan ang TV, at hinahanap ulit ang PC o phone mo kapag nagbago ang address nito
 • Available ang app sa 33 wika
 
 Mga kailangan mo:
 • TV na may Android TV o Google TV
-• PC na nagpapatakbo ng VI Translator, sa parehong home network
-• Capture card na may HDMI passthrough sa pagitan ng console at TV
+• VI Translator sa isang PC o Android phone, sa parehong home network
 
-Ang istilo ng text, ang wika ng salin, at kung ano ang binabasa ay itinatakda lahat sa VI Translator sa PC. Hakbang-hakbang na setup: vitranslator.app
+Ang istilo ng text, ang wika ng salin, at kung ano ang binabasa ay itinatakda lahat sa VI Translator sa PC o phone. Hakbang-hakbang na setup: vitranslator.app
 
-Privacy: sa sarili mong PC lang kumokonekta ang app, sa home network mo, at wala itong kinokolektang data.
+Privacy: sa sarili mong PC o phone lang kumokonekta ang app, sa home network mo, at wala itong kinokolektang data.
 
 Ang VI Translator ay isang di-opisyal na fan project, at hindi kaanib o inendorso ng anumang game publisher.

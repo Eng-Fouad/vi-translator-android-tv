@@ -1,21 +1,24 @@
 VI Translator mostra i sottotitoli di un gioco tradotti nella tua lingua, in tempo reale, proprio sopra il gioco sulla tua TV.
 
-Funziona insieme a VI Translator sul tuo PC (gratuito, su vitranslator.app). La console passa attraverso una scheda di acquisizione prima di arrivare alla TV. Il PC legge i sottotitoli dalla scheda di acquisizione e li traduce, e questa app disegna le traduzioni sopra l'immagine della TV, proprio dove devono stare. Sulla rete di casa viaggia solo testo, così le traduzioni compaiono con la stessa rapidità che sul PC e il gioco arriva alla TV in piena qualità, senza alcun ritardo aggiuntivo.
+Funziona insieme a VI Translator sul tuo PC o sul tuo telefono (gratuito, su vitranslator.app). Leggono i sottotitoli del gioco e li traducono, e questa app disegna le traduzioni sopra l'immagine della TV, proprio dove devono stare. Sulla rete di casa viaggia solo testo, così le traduzioni compaiono con la stessa rapidità che sul PC e il gioco arriva alla TV in piena qualità, senza alcun ritardo aggiuntivo.
+
+Due modi per giocare:
+• Con un PC: la console passa attraverso una scheda di acquisizione con passthrough HDMI prima di arrivare alla TV, e il PC legge la copia dell'immagine dalla scheda.
+• Con un telefono Android, senza PC e senza scheda di acquisizione: il telefono legge la tua PS5 o Xbox tramite Remote Play, mentre la console resta collegata alla TV come sempre.
 
 • Traduzioni sopra il gioco, direttamente sulla TV
-• Si abbina al tuo PC con un codice di 6 cifre: nessun account
+• Si abbina al tuo PC o telefono con un codice di 6 cifre: nessun account
 • Compare su tutti gli ingressi o solo sull'ingresso HDMI della console (sulle TV che indicano quale ingresso è sullo schermo)
 • Non occupa mai il telecomando: TV e gioco continuano a funzionare sotto le traduzioni
-• Si riavvia da sola quando accendi la TV e ritrova il PC se il suo indirizzo cambia
+• Si riavvia da sola quando accendi la TV e ritrova il PC o il telefono se il suo indirizzo cambia
 • L'app parla 33 lingue
 
 Cosa ti serve:
 • Una TV con Android TV o Google TV
-• Un PC con VI Translator, sulla stessa rete di casa
-• Una scheda di acquisizione con passthrough HDMI tra la console e la TV
+• VI Translator su un PC o su un telefono Android, sulla stessa rete di casa
 
-Lo stile del testo, la lingua di traduzione e cosa viene letto si impostano tutti in VI Translator sul PC. Guida passo passo: vitranslator.app
+Lo stile del testo, la lingua di traduzione e cosa viene letto si impostano tutti in VI Translator sul PC o sul telefono. Guida passo passo: vitranslator.app
 
-Privacy: l'app comunica solo con il tuo PC, sulla tua rete di casa, e non raccoglie alcun dato.
+Privacy: l'app comunica solo con il tuo PC o telefono, sulla tua rete di casa, e non raccoglie alcun dato.
 
 VI Translator è un progetto amatoriale non ufficiale, non affiliato né approvato da alcun editore di videogiochi.

@@ -1,21 +1,24 @@
 VI Translator shows a game's subtitles translated into your language, live, right over the game on your TV.
 
-It works together with VI Translator on your PC (free, from vitranslator.app). Your console plays through a capture card into the TV. The PC reads the subtitles from the capture card and translates them, and this app draws the translations over the TV picture, where they belong. Only text crosses your home network, so the translations show as fast as on the PC, and the game reaches your TV at full quality with no added delay.
+It works together with VI Translator on your PC or your phone (free, from vitranslator.app). They read the game's subtitles and translate them, and this app draws the translations over the TV picture, where they belong. Only text crosses your home network, so the translations show as fast as on the PC, and the game reaches your TV at full quality with no added delay.
+
+Two ways to play:
+• With a PC: your console plays through a capture card with HDMI passthrough into the TV, and the PC reads the card's copy of the picture.
+• With an Android phone, no PC and no capture card: the phone reads your PS5 or Xbox over Remote Play, while the console stays plugged into the TV as usual.
 
 • Translations over the game, on the TV itself
-• Pairs with your PC with a 6-digit code: no account
+• Pairs with your PC or phone with a 6-digit code: no account
 • Shows on all inputs, or only on your console's HDMI input (on TVs that report which input is on screen)
 • Never takes the remote: the TV and the game keep working under the translations
-• Starts again by itself when the TV turns on, and finds the PC again if its address changes
+• Starts again by itself when the TV turns on, and finds your PC or phone again if its address changes
 • The app speaks 33 languages
 
 What you need:
 • A TV with Android TV or Google TV
-• A PC running VI Translator, on the same home network
-• A capture card with HDMI passthrough between the console and the TV
+• VI Translator on a PC or an Android phone, on the same home network
 
-The text style, the translation language and what is read are all set in VI Translator on the PC. Step-by-step setup: vitranslator.app
+The text style, the translation language and what is read are all set in VI Translator on the PC or phone. Step-by-step setup: vitranslator.app
 
-Privacy: the app talks only to your own PC, on your home network, and collects no data.
+Privacy: the app talks only to your own PC or phone, on your home network, and collects no data.
 
 VI Translator is an unofficial fan project, not affiliated with or endorsed by any game publisher.
