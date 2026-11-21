@@ -17,8 +17,9 @@ android {
 
     defaultConfig {
         applicationId = "app.vitranslator.tv"
-        // Android 5.0: the first Android TV (the older ways of drawing over other apps are in Compat)
-        minSdk = 21
+        // Android 7.0: Google Play's automatic protection (its installer check) needs it; the TVs
+        // before it (Android 5 and 6, 2015-2016) are left out (Compat still has their ways)
+        minSdk = 24
         targetSdk = 36
         versionCode = appVersionCode
         versionName = appVersion

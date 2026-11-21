@@ -14,8 +14,9 @@ import android.view.WindowManager
 import android.webkit.WebSettings
 
 /**
- * What differs between Android versions, so the app runs on every Android TV: from Android 5.0
- * (the first Android TV, API 21) to today's Google TV.
+ * What differs between Android versions, so the app runs on every Android TV it supports: from
+ * Android 7.0 (API 24, app/build.gradle.kts) to today's Google TV. (It was written for Android 5.0,
+ * API 21, the first Android TV, and still handles those versions.)
  */
 object Compat {
     /** Drawing over other apps: allowed by the user from Android 6.0; granted at install before. */
